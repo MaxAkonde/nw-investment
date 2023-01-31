@@ -476,7 +476,7 @@
                 color: #ffffff
             }
         </style>
-        <div id="top-bar" class="topbar-transparent border-down">
+        {{-- <div id="top-bar" class="topbar-transparent border-down">
             <div class="container">
                 <div class="row">
                     <div class="col-md-9 col-sm-9 col-xs-12">
@@ -521,7 +521,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <header id="header" class="header nav-down nav-boxed-transparent">
             <div class="container">
@@ -536,14 +536,14 @@
                         </div>
                         <div class="col-xs-12 col-md-9 pull-right">
                             <ul class="top-info unstyled">
-                                <li class="top-info-content">
+                                {{-- <li class="top-info-content">
                                     <span class="info-icon"><i class="icon icon-phone3"></i></span>
                                     <div class="info-wrapper">
                                         <p class="info-title">1+(91) 458 654 528</p>
                                         <p class="info-subtitle">Phone number</p>
                                     </div>
-                                </li>
-                                <li class="top-info-content">
+                                </li> --}}
+                                {{-- <li class="top-info-content">
                                     <span class="info-icon"><i class="icon icon-envelope"></i></span>
                                     <div class="info-wrapper">
                                         <p class="info-title"><a href="#" class="__cf_email__"
@@ -551,17 +551,17 @@
                                         </p>
                                         <p class="info-subtitle">Email Address</p>
                                     </div>
-                                </li>
-                                <li class="top-info-content">
+                                </li> --}}
+                                {{-- <li class="top-info-content">
                                     <span class="info-icon"><i class="icon icon-map-marker2"></i></span>
                                     <div class="info-wrapper">
                                         <p class="info-title">1105 Roosevelt Street, CA</p>
                                         <p class="info-subtitle">Location</p>
                                     </div>
-                                </li>
-                                <li class="header-get-a-quote">
+                                </li> --}}
+                                {{-- <li class="header-get-a-quote">
                                     <a class="btn btn-primary" href="#"> Get A quote</a>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>
@@ -576,9 +576,9 @@
                                 <div class="navbar-responsive-collapse ">
                                     <ul id="main-menu" class="nav navbar-nav main-menu">
                                         <li id="menu-item-1036"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1036">
-                                            <a href="#">Home</a>
-                                            <ul class="sub-menu">
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-1036">
+                                            <a href="#">Accueil</a>
+                                            {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1690"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1690">
                                                     <a href="#">Home 1</a>
@@ -615,12 +615,12 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1759">
                                                     <a href="#">Home 9</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li id="menu-item-885"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-885">
-                                            <a href="#">Pages</a>
-                                            <ul class="sub-menu">
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-885">
+                                            <a href="#">Service</a>
+                                            {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1210"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1210">
                                                     <a href="#">About Us</a>
@@ -653,12 +653,12 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
                                                     <a href="#">Faq</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li id="menu-item-786"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-786">
-                                            <a href="#">Our Services</a>
-                                            <ul class="sub-menu">
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-786">
+                                            <a href="#">Garantie</a>
+                                            {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1192"
                                                     class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1192">
                                                     <a href="#">Financial
@@ -685,12 +685,12 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1196">
                                                     <a href="#">Business Loan</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li id="menu-item-1571"
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1571">
-                                            <a href="#">Features</a>
-                                            <ul class="sub-menu">
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1571">
+                                            <a href="#">Avis</a>
+                                            {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1925"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1925">
                                                     <a href="#">Addons List 1</a>
@@ -707,12 +707,12 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1931">
                                                     <a href="#">Addons List 4</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li id="menu-item-789"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-789">
-                                            <a href="#">News</a>
-                                            <ul class="sub-menu">
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-789">
+                                            <a href="#">Blog</a>
+                                            {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1647"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1647">
                                                     <a href="#">News Right Sidebar</a>
@@ -726,7 +726,7 @@
                                                     <a href="#">News
                                                         Single</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li id="menu-item-187"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187">
@@ -750,12 +750,12 @@
                                     <ul id="menu-main-menu" class="nav navbar-nav">
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1036 active active">
-                                            <a title="Home" href="#">Home</a>
-                                            <span class="menu-toggler collapsed" data-toggle="collapse"
+                                            <a title="Accueil" href="#">Accueil</a>
+                                            {{-- <span class="menu-toggler collapsed" data-toggle="collapse"
                                                 data-target=".collapse-1036">
                                                 <i class="fa fa-angle-right"></i>
-                                            </span>
-                                            <ul role="menu" class="collapse collapse-1036 ">
+                                            </span> --}}
+                                            {{-- <ul role="menu" class="collapse collapse-1036 ">
                                                 <li
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1690">
                                                     <a title="Home 1" href="#">Home 1</a>
@@ -792,12 +792,12 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1759">
                                                     <a title="Home 9" href="#">Home 9</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-885">
-                                            <a title="Pages" href="#">Pages</a>
-                                            <span class="menu-toggler collapsed" data-toggle="collapse"
+                                            <a title="Services" href="#">Services</a>
+                                            {{-- <span class="menu-toggler collapsed" data-toggle="collapse"
                                                 data-target=".collapse-885">
                                                 <i class="fa fa-angle-right"></i>
                                             </span>
@@ -835,12 +835,12 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
                                                     <a title="Faq" href="#">Faq</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-786">
-                                            <a title="Our Services" href="#">Our Services</a>
-                                            <span class="menu-toggler collapsed" data-toggle="collapse"
+                                            <a title="Garantie" href="#">Garantie</a>
+                                            {{-- <span class="menu-toggler collapsed" data-toggle="collapse"
                                                 data-target=".collapse-786">
                                                 <i class="fa fa-angle-right"></i>
                                             </span>
@@ -872,12 +872,12 @@
                                                     class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1196">
                                                     <a title="Business Loan" href="#">Business Loan</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1571">
-                                            <a title="Features" href="#">Features</a>
-                                            <span class="menu-toggler collapsed" data-toggle="collapse"
+                                            <a title="Avis" href="#">Avis</a>
+                                            {{-- <span class="menu-toggler collapsed" data-toggle="collapse"
                                                 data-target=".collapse-1571">
                                                 <i class="fa fa-angle-right"></i>
                                             </span>
@@ -902,12 +902,12 @@
                                                     <a title="Addons List 4" href="#">Addons
                                                         List 4</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-789">
-                                            <a title="News" href="#">News</a>
-                                            <span class="menu-toggler collapsed" data-toggle="collapse"
+                                            <a title="Blog" href="#">Blog</a>
+                                            {{-- <span class="menu-toggler collapsed" data-toggle="collapse"
                                                 data-target=".collapse-789">
                                                 <i class="fa fa-angle-right"></i>
                                             </span>
@@ -926,7 +926,7 @@
                                                     <a title="News Single" href="#">News
                                                         Single</a>
                                                 </li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187">
@@ -967,20 +967,16 @@
                                                     <div class="container">
                                                         <div class="slider-content text-left ">
                                                             <div class="col-md-12">
-                                                                <h2 class="slide-title title-light animated3">Your
-                                                                    future is created by</h2>
-                                                                <h3 class="slide-sub-title animated3">What you do today
+                                                                <h2 class="slide-title title-light animated3">Vous voulez maximiser vos investissements financiers ?</h2>
+                                                                <h3 class="slide-sub-title animated3">Rejoignez nous !
                                                                 </h3>
-                                                                <p class="slider-description lead animated3">Nobody’s
-                                                                    more committed to connecting you with the
-                                                                    exceptional<br /> top talents with the right fit for
-                                                                    your business than us.</p>
+                                                                <p class="slider-description lead animated3">Des milliers
+                                                                    d'investisseurs ont déjà choisi notre service financier.</p>
                                                                 <p class="animated3">
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-primary"> Our
-                                                                        Services</a>
+                                                                        class="slider btn btn-primary"> Notre service</a>
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-border"> Contact Us</a>
+                                                                        class="slider btn btn-border"> Contactez Nous</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -992,14 +988,13 @@
                                                         <div class="slider-content text-center ">
                                                             <div class="col-md-12">
                                                                 <h2 class="slide-title title-light animated3"></h2>
-                                                                <h3 class="slide-sub-title animated3">We provide
-                                                                    solutions to <br /> grow your business</h3>
+                                                                <h3 class="slide-sub-title animated3">Les meilleurs stratégies
+                                                                    <br />d'investissement</h3>
                                                                 <p class="animated3">
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-primary"> Our
-                                                                        Services</a>
+                                                                        class="slider btn btn-primary"> Notre service</a>
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-border"> Contact Us</a>
+                                                                        class="slider btn btn-border"> Contactez Nous</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1010,20 +1005,17 @@
                                                     <div class="container">
                                                         <div class="slider-content text-right ">
                                                             <div class="col-md-12">
-                                                                <h2 class="slide-title title-light animated3">Your
-                                                                    future is created by</h2>
-                                                                <h3 class="slide-sub-title animated3">We care about you
+                                                                <h2 class="slide-title title-light animated3">Nous offrons des stratégies
+                                                                    d'investissement</h2>
+                                                                <h3 class="slide-sub-title animated3">Sur mesure
                                                                 </h3>
-                                                                <p class="slider-description lead animated3">Nobody’s
-                                                                    more committed to connecting you with the
-                                                                    exceptional top talents <br /> with the right fit
-                                                                    for your business than us.</p>
+                                                                <p class="slider-description lead animated3">Qu'il s'agisse
+                                                                    de croissance à long terme ou de revenus réguliers.</p>
                                                                 <p class="animated3">
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-primary"> Our
-                                                                        Services</a>
+                                                                        class="slider btn btn-primary"> Notre service</a>
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-border"> Call Now</a>
+                                                                        class="slider btn btn-border"> Contactez Nous</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1073,15 +1065,18 @@
                                 <div class="fw-main-row">
                                     <div class="fw-col-inner">
                                         <div class="heading  xs-heading-06189b44   ">
-                                            <h3 class="xs-title content-title boder-none"> The Result: </h3>
+                                            <br>
+                                            <h3 class="xs-title content-title boder-none">Investir et rentabiliser à court terme à votre portée.</h3>
                                         </div>
+                                        <br>
                                         <div class="xs-text-block  xs-text-block-f5a71130">
-                                            <p>A business strategy is the means by which it sets out to achieve its
-                                                desired ends. You have ideas, goals, and dreams. We have a culturally
-                                                diverse, forward thinking team looking for talent like you.</p>
+                                            <p>Nous comprenons que prendre des décisions
+                                                d'investissement peut être stressant et incertain. C'est pourquoi nous offrons des
+                                                services de gestion de portefeuille de qualité pour aider nos clients à atteindre leurs
+                                                objectifs financiers.</p>
                                         </div>
-                                        <div id="xs-sc-cfda35b1" class="fw-divider-space "></div>
-                                        <div class="ts-feature-classic ">
+                                        {{-- <div id="xs-sc-cfda35b1" class="fw-divider-space "></div> --}}
+                                        {{-- <div class="ts-feature-classic ">
                                             <div class="ts-feature-info icon-left">
                                                 <span class="feature-icon">
                                                     <i class="icon icon-business"></i>
@@ -1091,7 +1086,8 @@
                                                     <p>We have a culturally diverse, forward thinking team.</p>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
+                                        <br>
                                         <div id="xs-sc-3d35374b" class="fw-divider-space "></div>
                                         <div class="ts-feature-classic ">
                                             <div class="ts-feature-info icon-left">
@@ -1099,12 +1095,13 @@
                                                     <i class="icon icon-chart22"></i>
                                                 </span>
                                                 <div class="feature-content">
-                                                    <h3 class="ts-feature-title">10.5% Conversation Rate</h3>
-                                                    <p>Business strategy is the means by which it sets.</p>
+                                                    <h3 class="ts-feature-title">12 % de rendement mensuel</h3>
+                                                    <p>C’est une réalité ! Associez vous à nous pour
+                                                        le vivre !</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div id="xs-sc-f843b26c" class="fw-divider-space "></div>
+                                        {{-- <div id="xs-sc-f843b26c" class="fw-divider-space "></div>
                                         <div class="ts-feature-classic ">
                                             <div class="ts-feature-info icon-left">
                                                 <span class="feature-icon">
@@ -1115,7 +1112,7 @@
                                                     <p>Make your dream come true have ideas, goals.</p>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -1151,9 +1148,10 @@
                                                     <i class="icon icon-consut2"></i>
                                                 </span>
                                                 <div class="feature-content">
-                                                    <h3 class="ts-feature-title">Best Consulting</h3>
-                                                    <p>Mutual funds pool money from many investors to purchase broad
-                                                        range of investments, such as stocks, goals, and dreams.</p>
+                                                    <h3 class="ts-feature-title">Transparence</h3>
+                                                    <p>Expert dans les instruments financiers à effets de levier calculée.
+                                                        Nous sommes un congloméra d’investissement axé sur la classe moyenne avec
+                                                        pour vision l’essor de cette dernière.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1172,9 +1170,10 @@
                                                         <i class="icon icon-chart22"></i>
                                                     </span>
                                                     <div class="feature-content">
-                                                        <h3 class="ts-feature-title">Marketing growth</h3>
-                                                        <p>Mutual funds pool money from many investors to purchase broad
-                                                            range of investments, such as stocks, goals, and dreams.</p>
+                                                        <h3 class="ts-feature-title">Performance</h3>
+                                                        <p>Favoriser la classe moyenne au travers d’instruments financiers , à risques modérés
+                                                            et à forte rentabilité en un laps de temps est le coeur de notre métier . Le conseil et
+                                                            le suivi des performances notre valeur de jugement.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1190,13 +1189,12 @@
                                                 <div class="ts-feature-box ">
                                                     <div class="ts-feature-info">
                                                         <span class="feature-icon">
-                                                            <i class="icon icon-clock3"></i>
+                                                            <i class="icon icon-user2"></i>
                                                         </span>
                                                         <div class="feature-content">
-                                                            <h3 class="ts-feature-title">On time services</h3>
-                                                            <p>Mutual funds pool money from many investors to purchase
-                                                                broad range of investments, such as stocks, goals, and
-                                                                dreams.</p>
+                                                            <h3 class="ts-feature-title">Responsabilité</h3>
+                                                            <p>L’accompagnement poste gain, notre fer de lance pour une pérénisation de ce
+                                                                projet.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1215,10 +1213,9 @@
                                 <div class="fw-main-row">
                                     <div class="fw-col-inner">
                                         <div class="call-to-action ">
-                                            <h3>We Offer Financial Strategies &amp; Superior Services</h3>
-                                            <p class="call-to-action-details">Our mission is to provide quality
-                                                guidance, build relationships of trust, and develop innovative Eiusmod
-                                                tempor incididunt ut labore et dolore magna solutions.
+                                            <h3>Investir et rentabiliser à court terme à votre portée.</h3>
+                                            <p class="call-to-action-details">Rejoignez notre communauté d'investisseurs en confiance et laissez-nous vous
+                                                aider à atteindre vos objectifs financiers.
                                             </p>
                                         </div>
                                     </div>
@@ -1230,7 +1227,7 @@
                                         <div class="fw-col-inner">
                                             <div class="text-right "> <a target="_self" href="#"
                                                     class="margin-top-20 margin-right-10 btn btn-primary">
-                                                    Get Free Quote</a>
+                                                    Contactez-nous</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1259,25 +1256,28 @@
                                     <div class="fw-main-row">
                                         <div class="fw-col-inner">
                                             <div class="heading  xs-heading-ffe67c61   ">
-                                                <h3 class="xs-title content-title boder-none"> Possible Solutions:
+                                                <br>
+                                                <h3 class="xs-title content-title boder-none"> Notre offre:
                                                 </h3>
                                             </div>
                                             <div class="xs-text-block  xs-text-block-dc963eda">
-                                                <p>A business strategy is the means by which it sets out to achieve its
-                                                    desired ends. You have ideas, goals, and dreams. We have a
-                                                    culturally diverse, forward thinking team looking for talent like
-                                                    you and make your dream come true have ideas, goals.</p>
+                                                <p>Notre équipe de professionnels expérimentés est dédiée à offrir des conseils
+                                                    personnalisés et des stratégies d'investissement adaptées aux besoins de chaque
+                                                    client. Nous nous engageons à maintenir une communication transparente et
+                                                    régulière pour que nos clients soient informés de l'évolution de leur portefeuille.
+                                                    <br>
+                                                    <strong>Faites reculer les barrières de l’inflation.</strong>
+                                                </p>
                                             </div>
                                             <div class="fw-list list-default  ">
                                                 <ul>
-                                                    <li>Collaborate with the technology information security, and
-                                                        business partners.
+                                                    <li>72 x fois plus rentable que le livret A sur 1 an.
                                                     </li>
-                                                    <li>Find and address performance issues are main.
+                                                    <li>36 x fois plus rentable que le livret jeune sur un 1 an
                                                     </li>
-                                                    <li>Assisting senior consultants projects priorate first.
+                                                    <li>15 x fois plus rentable que l’immobilier sur 25 ans.
                                                     </li>
-                                                    <li>Share best both practices and knowledge need to think.
+                                                    <li>Et comme si ça ne suffisait pas le tout en un trimestre.
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1298,25 +1298,26 @@
                                 <div class="fw-main-row">
                                     <div class="fw-col-inner">
                                         <div class="heading  xs-heading-c6a3aa9e   ">
-                                            <h3 class="xs-title content-title boder-none"> The Challenge: </h3>
+                                            <br>
+                                            <h3 class="xs-title content-title boder-none"> Notre challenge: </h3>
                                         </div>
                                         <div class="xs-text-block  xs-text-block-cc99f650">
-                                            <p>A business strategy is the means by which it sets out to achieve its
-                                                desired ends. You have ideas, goals, and dreams. We have a culturally
-                                                diverse, forward thinking team looking for talent like you and make your
-                                                dream come true have ideas, goals.</p>
+                                            <p>Nous comprenons que chaque investisseur est unique, c'est pourquoi nous prenons
+                                                le temps de comprendre les objectifs, la tolérance au risque et l'expérience
+                                                d'investissement de chaque client pour élaborer des stratégies d'investissement
+                                                personnalisées.</p>
                                         </div>
                                         <div class="fw-list list-default  ">
                                             <ul>
-                                                <li>Collaborate with the technology information security, and business
-                                                    partners.
+                                                <li>0 commissions ni frais cachés.
                                                 </li>
-                                                <li>Find and address performance issues are main.
+                                                <li>Retour sur investissement garantie
                                                 </li>
-                                                <li>Assisting senior consultants projects priorate first.
+                                                <li>Assurance Capital.
                                                 </li>
-                                                <li>Share best both practices and knowledge need to think.
+                                                <li>Confidentialité.
                                                 </li>
+                                                <li>Service Client à l’écoute.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -1353,7 +1354,7 @@
                                                 lang="en-US" dir="ltr">
                                                 <div class="screen-reader-response"></div>
                                                 <form
-                                                    action="https://demo.xpeedstudio.com/wp/bizipress/home-3/#wpcf7-f1313-p1073-o1"
+                                                    action="#"
                                                     method="post" class="wpcf7-form" novalidate="novalidate">
                                                     <div style="display: none;">
                                                         <input type="hidden" name="_wpcf7" value="1313" />
@@ -1365,8 +1366,7 @@
                                                             value="1073" />
                                                     </div>
                                                     <div class="ts_quote_form">
-                                                        <h2 class="column-title title-white"><span>We are always
-                                                                ready</span> Request a call back</h2>
+                                                        <h2 class="column-title title-white"><span>Contactez-nous</span> Et nous vous rappellerons</h2>
                                                         <div class="row">
                                                             <div class="col-md-6">
                                                                 <p><span class="wpcf7-form-control-wrap text"><input
@@ -1374,7 +1374,7 @@
                                                                             value="" size="40"
                                                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                             aria-required="true" aria-invalid="false"
-                                                                            placeholder="Full Name" /></span></p>
+                                                                            placeholder="Nom Complet" /></span></p>
                                                             </div>
                                                             <div class="col-md-6">
                                                                 <p><span class="wpcf7-form-control-wrap email"><input
@@ -1382,7 +1382,7 @@
                                                                             value="" size="40"
                                                                             class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                                             aria-required="true" aria-invalid="false"
-                                                                            placeholder="Email Address" /></span></p>
+                                                                            placeholder="Adresse E-Mail" /></span></p>
                                                             </div>
                                                             <div class="col-md-12">
                                                                 <p><span class="wpcf7-form-control-wrap text"><input
@@ -1390,14 +1390,14 @@
                                                                             value="" size="40"
                                                                             class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                             aria-required="true" aria-invalid="false"
-                                                                            placeholder="Subject" /></span></p>
+                                                                            placeholder="Sujet" /></span></p>
                                                             </div>
                                                             <div class="col-md-12">
                                                                 <p><span class="wpcf7-form-control-wrap textarea">
                                                                         <textarea name="textarea" cols="40" rows="4" class="wpcf7-form-control wpcf7-textarea"
                                                                             aria-invalid="false" placeholder="Message"></textarea>
                                                                     </span></p>
-                                                                <p><input type="submit" value="Send Message"
+                                                                <p><input type="submit" value="Envoyer"
                                                                         class="wpcf7-form-control wpcf7-submit btn btn-primary" />
                                                                 </p>
                                                             </div>
@@ -1473,8 +1473,7 @@
                                 <div class="fw-main-row">
                                     <div class="fw-col-inner">
                                         <div class="heading  xs-heading-df708d12 text-center  ">
-                                            <h2 class="xs-title section-title"><span class="shortheading">Dont
-                                                    Miss</span> Our Latest News </h2>
+                                            <h2 class="xs-title section-title"><span class="shortheading">Ne rater pas</span> Nos derniers articles </h2>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="latest-post post-large">
@@ -1565,23 +1564,23 @@
                         <div class="col-md-4 footer-box">
                             <i class="icon icon-map-marker2"></i>
                             <div class="footer-box-content">
-                                <h3>Head Office</h3>
+                                <h3>Adresse</h3>
                                 <p>1010 Avenue, NY 90001, USA</p>
                             </div>
                         </div>
                         <div class="col-md-4 footer-box">
                             <i class="icon icon-phone3"></i>
                             <div class="footer-box-content">
-                                <h3>Call Us</h3>
-                                <p>(+87) 847-291-4353</p>
+                                <h3>Appelez nous</h3>
+                                <p>(+00) 000-000-0000</p>
                             </div>
                         </div>
                         <div class="col-md-4 footer-box">
                             <i class="icon icon-envelope"></i>
                             <div class="footer-box-content">
-                                <h3>Mail Us</h3>
+                                <h3>Contactez nous</h3>
                                 <p><a href="#" class="__cf_email__"
-                                        data-cfemail="c5acaba3aa85a0bda4a8b5a9a0eba6aaa8">[email&#160;protected]</a>
+                                        data-cfemail="c5acaba3aa85a0bda4a8b5a9a0eba6aaa8">contact@contact.com</a>
                                 </p>
                             </div>
                         </div>
@@ -1600,8 +1599,9 @@
                             <div id="text-3" class="footer-widget widget_text">
                                 <div class="textwidget">
                                     <div class="gap-20"></div>
-                                    <p>We are an awward winning multinational company. We believe in quality and
-                                        standard worldwide.</p>
+                                    <p>Nous proposons des placements au travers de notre groupe, qui vous permettent
+                                        d’entrée avec un ticket modéré compris entre 2000 et 5000 € , sur une durée de 3
+                                        mois non renouvelable, afin de permettre à une multitude de saisir cette aubaine.</p>
                                 </div>
                             </div>
                             <div id="xs-social-2" class="footer-widget bizipress_widget">
@@ -1619,26 +1619,22 @@
                         </div>
                         <div class="col-md-4 col-sm-12">
                             <div id="text-4" class="footer-widget widget_text">
-                                <h3 class="widget-title">Useful Links</h3>
+                                <h3 class="widget-title">Liens Utiles</h3>
                                 <div class="textwidget">
                                     <ul class="list-dash">
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Our Services</a></li>
-                                        <li><a href="#">Projects</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Career</a></li>
-                                        <li><a href="#">Our Blog</a></li>
-                                        <li><a href="#">Why Need Agent?</a></li>
-                                        <li><a href="#">Investments</a></li>
-                                        <li><a href="#">Consultation</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Acceuil</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Garantie</a></li>
+                                        <li><a href="#">Avis</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-12">
                             <div id="mc4wp_form_widget-2" class="footer-widget widget_mc4wp_form_widget">
-                                <h3 class="widget-title">Subscribe</h3>
+                                <h3 class="widget-title">S'abonner</h3>
                                 <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                                 <script>
                                     (function() {
@@ -1659,12 +1655,10 @@
                                     data-id="1264" data-name="">
                                     <div class="mc4wp-form-fields">
                                         <div class="finances-newsletter">
-                                            <div class="newsletter-introtext">Don’t miss to subscribe to our new
-                                                feeds,
-                                                kindly fill the form below.
+                                            <div class="newsletter-introtext">Ne manquez pas de vous abonner à nos nouveaux flux, veuillez remplir le formulaire ci-dessous.
                                             </div>
                                             <div class="form-group">
-                                                <input type="email" name="EMAIL" placeholder="Your email address"
+                                                <input type="email" name="EMAIL" placeholder="Votre adresse mail"
                                                     required />
                                                 <input type="submit" value="Sign up" />
                                             </div>
@@ -1689,7 +1683,7 @@
                 <div class="row border-top">
                     <div class="col-sm-6">
                         <div class="copyright-info">
-                            <span> Copyright 2018 Bizipress. All Rights Reserved</span>
+                            <span> Copyright {{ date('Y') }} Bizipress. All Rights Reserved</span>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -1697,20 +1691,20 @@
                             <ul id="footer-menu" class="nav unstyled">
                                 <li id="menu-item-1363"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1363">
-                                    <a href="#">Home</a>
+                                    <a href="#">Accueil</a>
                                 </li>
                                 <li id="menu-item-1364"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a
-                                        href="#">About Us</a></li>
+                                        href="#">Service</a></li>
                                 <li id="menu-item-1365"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1365"><a
-                                        href="#">Privacy Policy</a></li>
+                                        href="#">Garantie</a></li>
                                 <li id="menu-item-1367"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1367"><a
-                                        href="#">Investors</a></li>
+                                        href="#">Avis</a></li>
                                 <li id="menu-item-1368"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1368"><a
-                                        href="#">Legals</a></li>
+                                        href="#">Blog</a></li>
                                 <li id="menu-item-1369"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1369"><a
                                         href="#">Contact</a></li>
