@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Home 8 &#8211; Bizipress</title>
+    <title>NW-Investments</title>
     <link href="https://fonts.googleapis.com/css?family=Asap%3Aregular" rel="stylesheet">
     <link rel='dns-prefetch' href='http://s.w.org/' />
     <link rel="alternate" type="application/rss+xml" title="Bizipress &raquo; Feed" href="../feed/index.html" />
@@ -121,6 +121,9 @@
         href='{{ asset('wp-content/themes/bizipress/assets/css/style5152.css?ver=1.0') }}' type='text/css'
         media='all' />
     <style id='bizipress-style-inline-css' type='text/css'>
+    @media only screen and (max-width: 1099px) {.xs-sc-0a1a81fb {background-attachment:scroll !important;}}.xs-sc-0a1a81fb{background-image:url(../wp-content/uploads/2018/02/facts_parallax.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover; background-attachment: fixed;}.xs-sc-0a1a81fb .xs-main-overlay{background-color:rgba(0,0,0,0.7)}.xs-sc-0a1a81fb{overflow:hidden;}
+
+
         .xs-sc-860b9289 {
             margin: 0px -15px 0px -15px;
         }
@@ -577,7 +580,7 @@
                                     <ul id="main-menu" class="nav navbar-nav main-menu">
                                         <li id="menu-item-1036"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-1036">
-                                            <a href="#">Accueil</a>
+                                            <a href="/">Accueil</a>
                                             {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1690"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1690">
@@ -619,7 +622,7 @@
                                         </li>
                                         <li id="menu-item-885"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-885">
-                                            <a href="#">Service</a>
+                                            <a href="#service">Service</a>
                                             {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1210"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1210">
@@ -657,7 +660,7 @@
                                         </li>
                                         <li id="menu-item-786"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-786">
-                                            <a href="#">Garantie</a>
+                                            <a href="#garantie">Garantie</a>
                                             {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1192"
                                                     class="menu-item menu-item-type-post_type menu-item-object-service menu-item-1192">
@@ -689,7 +692,7 @@
                                         </li>
                                         <li id="menu-item-1571"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1571">
-                                            <a href="#">Avis</a>
+                                            <a href="#avis">Avis</a>
                                             {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1925"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1925">
@@ -711,7 +714,7 @@
                                         </li>
                                         <li id="menu-item-789"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-789">
-                                            <a href="#">Blog</a>
+                                            <a href="#blog">Blog</a>
                                             {{-- <ul class="sub-menu">
                                                 <li id="menu-item-1647"
                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1647">
@@ -750,7 +753,7 @@
                                     <ul id="menu-main-menu" class="nav navbar-nav">
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1036 active active">
-                                            <a title="Accueil" href="#">Accueil</a>
+                                            <a title="Accueil" href="/">Accueil</a>
                                             {{-- <span class="menu-toggler collapsed" data-toggle="collapse"
                                                 data-target=".collapse-1036">
                                                 <i class="fa fa-angle-right"></i>
@@ -796,7 +799,7 @@
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-885">
-                                            <a title="Services" href="#">Services</a>
+                                            <a title="Services" href="#service">Services</a>
                                             {{-- <span class="menu-toggler collapsed" data-toggle="collapse"
                                                 data-target=".collapse-885">
                                                 <i class="fa fa-angle-right"></i>
@@ -839,7 +842,7 @@
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-786">
-                                            <a title="Garantie" href="#">Garantie</a>
+                                            <a title="Garantie" href="#garantie">Garantie</a>
                                             {{-- <span class="menu-toggler collapsed" data-toggle="collapse"
                                                 data-target=".collapse-786">
                                                 <i class="fa fa-angle-right"></i>
@@ -876,7 +879,7 @@
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1571">
-                                            <a title="Avis" href="#">Avis</a>
+                                            <a title="Avis" href="#avis">Avis</a>
                                             {{-- <span class="menu-toggler collapsed" data-toggle="collapse"
                                                 data-target=".collapse-1571">
                                                 <i class="fa fa-angle-right"></i>
@@ -930,22 +933,14 @@
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187">
-                                            <a title="Contact" href="#">Contact</a>
+                                            <a title="Contact" href="#blog">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="nav-search">
-                        <span><i class="icon icon-search"></i></span>
-                    </div>
-                    <form method="get" class="search-block" style="display: none;"
-                        action="https://demo.xpeedstudio.com/wp/bizipress/" id="search">
-                        <input type="text" name="s" class="form-control"
-                            placeholder="Type what you want and enter" value="">
-                        <span class="search-close">&times;</span>
-                    </form>
+                    
                 </div>
             </nav>
         </header>
@@ -967,16 +962,22 @@
                                                     <div class="container">
                                                         <div class="slider-content text-left ">
                                                             <div class="col-md-12">
-                                                                <h2 class="slide-title title-light animated3">Vous voulez maximiser vos investissements financiers ?</h2>
+                                                                <h2 class="slide-title title-light animated3">Vous
+                                                                    voulez maximiser vos investissements financiers ?
+                                                                </h2>
                                                                 <h3 class="slide-sub-title animated3">Rejoignez nous !
                                                                 </h3>
-                                                                <p class="slider-description lead animated3">Des milliers
-                                                                    d'investisseurs ont déjà choisi notre service financier.</p>
+                                                                <p class="slider-description lead animated3">Des
+                                                                    milliers
+                                                                    d'investisseurs ont déjà choisi notre service
+                                                                    financier.</p>
                                                                 <p class="animated3">
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-primary"> Notre service</a>
+                                                                        class="slider btn btn-primary"> Notre
+                                                                        service</a>
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-border"> Contactez Nous</a>
+                                                                        class="slider btn btn-border"> Contactez
+                                                                        Nous</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -988,13 +989,17 @@
                                                         <div class="slider-content text-center ">
                                                             <div class="col-md-12">
                                                                 <h2 class="slide-title title-light animated3"></h2>
-                                                                <h3 class="slide-sub-title animated3">Les meilleurs stratégies
-                                                                    <br />d'investissement</h3>
+                                                                <h3 class="slide-sub-title animated3">Les meilleurs
+                                                                    stratégies
+                                                                    <br />d'investissement
+                                                                </h3>
                                                                 <p class="animated3">
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-primary"> Notre service</a>
+                                                                        class="slider btn btn-primary"> Notre
+                                                                        service</a>
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-border"> Contactez Nous</a>
+                                                                        class="slider btn btn-border"> Contactez
+                                                                        Nous</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1005,17 +1010,22 @@
                                                     <div class="container">
                                                         <div class="slider-content text-right ">
                                                             <div class="col-md-12">
-                                                                <h2 class="slide-title title-light animated3">Nous offrons des stratégies
+                                                                <h2 class="slide-title title-light animated3">Nous
+                                                                    offrons des stratégies
                                                                     d'investissement</h2>
                                                                 <h3 class="slide-sub-title animated3">Sur mesure
                                                                 </h3>
-                                                                <p class="slider-description lead animated3">Qu'il s'agisse
-                                                                    de croissance à long terme ou de revenus réguliers.</p>
+                                                                <p class="slider-description lead animated3">Qu'il
+                                                                    s'agisse
+                                                                    de croissance à long terme ou de revenus réguliers.
+                                                                </p>
                                                                 <p class="animated3">
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-primary"> Notre service</a>
+                                                                        class="slider btn btn-primary"> Notre
+                                                                        service</a>
                                                                     <a target="_self" href="#"
-                                                                        class="slider btn btn-border"> Contactez Nous</a>
+                                                                        class="slider btn btn-border"> Contactez
+                                                                        Nous</a>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -1055,7 +1065,7 @@
                         </div>
                     </div>
             </section>
-            <section id="xs-sec-6454c33a" class="fw-main-row   xs-sc-6454c33a   ">
+            <section id="service" class="fw-main-row   xs-sc-6454c33a   ">
                 <br>
                 <div class="xs-main-overlay"></div>
                 <div class="fw-container">
@@ -1066,13 +1076,16 @@
                                     <div class="fw-col-inner">
                                         <div class="heading  xs-heading-06189b44   ">
                                             <br>
-                                            <h3 class="xs-title content-title boder-none">Investir et rentabiliser à court terme à votre portée.</h3>
+                                            <h3 class="xs-title content-title boder-none">Investir et rentabiliser à
+                                                court terme à votre portée.</h3>
                                         </div>
                                         <br>
                                         <div class="xs-text-block  xs-text-block-f5a71130">
                                             <p>Nous comprenons que prendre des décisions
-                                                d'investissement peut être stressant et incertain. C'est pourquoi nous offrons des
-                                                services de gestion de portefeuille de qualité pour aider nos clients à atteindre leurs
+                                                d'investissement peut être stressant et incertain. C'est pourquoi nous
+                                                offrons des
+                                                services de gestion de portefeuille de qualité pour aider nos clients à
+                                                atteindre leurs
                                                 objectifs financiers.</p>
                                         </div>
                                         {{-- <div id="xs-sc-cfda35b1" class="fw-divider-space "></div> --}}
@@ -1149,8 +1162,10 @@
                                                 </span>
                                                 <div class="feature-content">
                                                     <h3 class="ts-feature-title">Transparence</h3>
-                                                    <p>Expert dans les instruments financiers à effets de levier calculée.
-                                                        Nous sommes un congloméra d’investissement axé sur la classe moyenne avec
+                                                    <p>Expert dans les instruments financiers à effets de levier
+                                                        calculée.
+                                                        Nous sommes un congloméra d’investissement axé sur la classe
+                                                        moyenne avec
                                                         pour vision l’essor de cette dernière.</p>
                                                 </div>
                                             </div>
@@ -1171,8 +1186,10 @@
                                                     </span>
                                                     <div class="feature-content">
                                                         <h3 class="ts-feature-title">Performance</h3>
-                                                        <p>Favoriser la classe moyenne au travers d’instruments financiers , à risques modérés
-                                                            et à forte rentabilité en un laps de temps est le coeur de notre métier . Le conseil et
+                                                        <p>Favoriser la classe moyenne au travers d’instruments
+                                                            financiers , à risques modérés
+                                                            et à forte rentabilité en un laps de temps est le coeur de
+                                                            notre métier . Le conseil et
                                                             le suivi des performances notre valeur de jugement.</p>
                                                     </div>
                                                 </div>
@@ -1193,7 +1210,8 @@
                                                         </span>
                                                         <div class="feature-content">
                                                             <h3 class="ts-feature-title">Responsabilité</h3>
-                                                            <p>L’accompagnement poste gain, notre fer de lance pour une pérénisation de ce
+                                                            <p>L’accompagnement poste gain, notre fer de lance pour une
+                                                                pérénisation de ce
                                                                 projet.</p>
                                                         </div>
                                                     </div>
@@ -1204,7 +1222,7 @@
                                 </div>
                             </div>
             </section>
-            <section id="xs-sec-1f6a129c" class="fw-main-row   xs-sc-1f6a129c   ">
+            <section id="garantie" class="fw-main-row   xs-sc-1f6a129c   ">
                 <div class="xs-main-overlay"></div>
                 <div class="fw-container">
                     <div class="fw-row">
@@ -1214,7 +1232,8 @@
                                     <div class="fw-col-inner">
                                         <div class="call-to-action ">
                                             <h3>Investir et rentabiliser à court terme à votre portée.</h3>
-                                            <p class="call-to-action-details">Rejoignez notre communauté d'investisseurs en confiance et laissez-nous vous
+                                            <p class="call-to-action-details">Rejoignez notre communauté
+                                                d'investisseurs en confiance et laissez-nous vous
                                                 aider à atteindre vos objectifs financiers.
                                             </p>
                                         </div>
@@ -1261,25 +1280,93 @@
                                                 </h3>
                                             </div>
                                             <div class="xs-text-block  xs-text-block-dc963eda">
-                                                <p>Notre équipe de professionnels expérimentés est dédiée à offrir des conseils
-                                                    personnalisés et des stratégies d'investissement adaptées aux besoins de chaque
-                                                    client. Nous nous engageons à maintenir une communication transparente et
-                                                    régulière pour que nos clients soient informés de l'évolution de leur portefeuille.
+                                                <p>Notre équipe de professionnels expérimentés est dédiée à offrir des
+                                                    conseils
+                                                    personnalisés et des stratégies d'investissement adaptées aux
+                                                    besoins de chaque
+                                                    client. Nous nous engageons à maintenir une communication
+                                                    transparente et
+                                                    régulière pour que nos clients soient informés de l'évolution de
+                                                    leur portefeuille.
                                                     <br>
                                                     <strong>Faites reculer les barrières de l’inflation.</strong>
                                                 </p>
                                             </div>
-                                            <div class="fw-list list-default  ">
-                                                <ul>
-                                                    <li>72 x fois plus rentable que le livret A sur 1 an.
-                                                    </li>
-                                                    <li>36 x fois plus rentable que le livret jeune sur un 1 an
-                                                    </li>
-                                                    <li>15 x fois plus rentable que l’immobilier sur 25 ans.
-                                                    </li>
-                                                    <li>Et comme si ça ne suffisait pas le tout en un trimestre.
-                                                    </li>
-                                                </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="xs-sec-0a1a81fb"
+                class="fw-main-row parallax-section  xs-sc-0a1a81fb text-center  section-padding">
+                <div class="xs-main-overlay"></div>
+                <div class="fw-container">
+                    <div class="fw-row">
+                        <div class="fw-col-inner">
+                            <div id="xs-col-767bd371" class="fw-col-md-3     xs-sc-767bd371    ">
+                                <div class="fw-main-row">
+                                    <div class="fw-col-inner">
+                                        <div class="fact-box">
+                                            <div class="text-center">
+                                                <i class="icon icon-money-1"></i>
+                                                <h3 class="facts-num">
+                                                    <span class="counterUp">72</span> x plus
+                                                </h3>
+                                                <p style="color: white">Rentable que le livret A sur 1 an.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fw-col-inner">
+                                <div id="xs-col-3bf6c8a9" class="fw-col-md-3     xs-sc-3bf6c8a9    ">
+                                    <div class="fw-main-row">
+                                        <div class="fw-col-inner">
+                                            <div class="fact-box">
+                                                <div class="text-center">
+                                                    <i class="icon icon-deal"></i>
+                                                    <h3 class="facts-num">
+                                                        <span class="counterUp">36</span> x plus
+                                                    </h3>
+                                                    <p style="color: white">Rentable que le livret jeune sur 1 an.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="fw-col-inner">
+                                    <div id="xs-col-d549695b" class="fw-col-md-3     xs-sc-d549695b    ">
+                                        <div class="fw-main-row">
+                                            <div class="fw-col-inner">
+                                                <div class="fact-box">
+                                                    <div class="text-center">
+                                                        <i class="icon icon-chart22"></i>
+                                                        <h3 class="facts-num">
+                                                            <span class="counterUp">15</span> x plus
+                                                        </h3>
+                                                        <p style="color: white">Rentable que l’immobilier sur 25 ans.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fw-col-inner">
+                                        <div id="xs-col-bf3dac22" class="fw-col-md-3     xs-sc-bf3dac22    ">
+                                            <div class="fw-main-row">
+                                                <div class="fw-col-inner">
+                                                    <div class="fact-box">
+                                                        <div class="text-center">
+                                                            <i class="icon icon-invest"></i>
+                                                            <h3 class="facts-num">
+                                                                Tout en un trimestre.
+                                                            </h3>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1302,9 +1389,12 @@
                                             <h3 class="xs-title content-title boder-none"> Notre challenge: </h3>
                                         </div>
                                         <div class="xs-text-block  xs-text-block-cc99f650">
-                                            <p>Nous comprenons que chaque investisseur est unique, c'est pourquoi nous prenons
-                                                le temps de comprendre les objectifs, la tolérance au risque et l'expérience
-                                                d'investissement de chaque client pour élaborer des stratégies d'investissement
+                                            <p>Nous comprenons que chaque investisseur est unique, c'est pourquoi nous
+                                                prenons
+                                                le temps de comprendre les objectifs, la tolérance au risque et
+                                                l'expérience
+                                                d'investissement de chaque client pour élaborer des stratégies
+                                                d'investissement
                                                 personnalisées.</p>
                                         </div>
                                         <div class="fw-list list-default  ">
@@ -1340,7 +1430,7 @@
                 </div>
             </section>
 
-            <section id="xs-sec-3832556b" class="fw-main-row parallax-section  xs-sc-3832556b   ">
+            <section id="avis" class="fw-main-row parallax-section  xs-sc-3832556b   ">
                 <div class="xs-main-overlay"></div>
                 <div class="fw-container">
                     <div class="fw-row">
@@ -1353,9 +1443,8 @@
                                             <div role="form" class="wpcf7" id="wpcf7-f1313-p1073-o1"
                                                 lang="en-US" dir="ltr">
                                                 <div class="screen-reader-response"></div>
-                                                <form
-                                                    action="#"
-                                                    method="post" class="wpcf7-form" novalidate="novalidate">
+                                                <form action="#" method="post" class="wpcf7-form"
+                                                    novalidate="novalidate">
                                                     <div style="display: none;">
                                                         <input type="hidden" name="_wpcf7" value="1313" />
                                                         <input type="hidden" name="_wpcf7_version" value="5.0.2" />
@@ -1366,7 +1455,9 @@
                                                             value="1073" />
                                                     </div>
                                                     <div class="ts_quote_form">
-                                                        <h2 class="column-title title-white"><span>Contactez-nous</span> Et nous vous rappellerons</h2>
+                                                        <h2 class="column-title title-white">
+                                                            <span>Contactez-nous</span> Et nous vous rappellerons
+                                                        </h2>
                                                         <div class="row">
                                                             <div class="col-md-6">
                                                                 <p><span class="wpcf7-form-control-wrap text"><input
@@ -1464,7 +1555,7 @@
                             </div>
                         </div>
             </section>
-            <section id="xs-sec-d1ef01c2" class="fw-main-row   xs-sc-d1ef01c2   section-padding">
+            <section id="blog" class="fw-main-row   xs-sc-d1ef01c2   section-padding">
                 <div class="xs-main-overlay"></div>
                 <div class="fw-container">
                     <div class="fw-row">
@@ -1473,7 +1564,8 @@
                                 <div class="fw-main-row">
                                     <div class="fw-col-inner">
                                         <div class="heading  xs-heading-df708d12 text-center  ">
-                                            <h2 class="xs-title section-title"><span class="shortheading">Ne rater pas</span> Nos derniers articles </h2>
+                                            <h2 class="xs-title section-title"><span class="shortheading">Ne rater
+                                                    pas</span> Nos derniers articles </h2>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="latest-post post-large">
@@ -1601,7 +1693,8 @@
                                     <div class="gap-20"></div>
                                     <p>Nous proposons des placements au travers de notre groupe, qui vous permettent
                                         d’entrée avec un ticket modéré compris entre 2000 et 5000 € , sur une durée de 3
-                                        mois non renouvelable, afin de permettre à une multitude de saisir cette aubaine.</p>
+                                        mois non renouvelable, afin de permettre à une multitude de saisir cette
+                                        aubaine.</p>
                                 </div>
                             </div>
                             <div id="xs-social-2" class="footer-widget bizipress_widget">
@@ -1655,7 +1748,8 @@
                                     data-id="1264" data-name="">
                                     <div class="mc4wp-form-fields">
                                         <div class="finances-newsletter">
-                                            <div class="newsletter-introtext">Ne manquez pas de vous abonner à nos nouveaux flux, veuillez remplir le formulaire ci-dessous.
+                                            <div class="newsletter-introtext">Ne manquez pas de vous abonner à nos
+                                                nouveaux flux, veuillez remplir le formulaire ci-dessous.
                                             </div>
                                             <div class="form-group">
                                                 <input type="email" name="EMAIL" placeholder="Votre adresse mail"
