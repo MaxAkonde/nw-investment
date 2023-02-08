@@ -4,8 +4,7 @@
             <div class="logo-area clearfix">
                 <div class="col-md-3 col-xs-12 navbar-header">
                     <div class="logo">
-                        <a href="#"> <img src="{{ asset('wp-content/uploads/2018/02/logo.png') }}"
-                                alt="Bizipress">
+                        <a href="#"> <img src="{{ asset('wp-content/uploads/2018/02/logo.png') }}" alt="Bizipress">
                         </a>
                     </div>
                 </div>
@@ -28,13 +27,13 @@
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-1036">
                                     <a href="/">Accueil</a>
                                 </li>
-                                <li id="menu-item-885"
+                                {{-- <li id="menu-item-885"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-885">
                                     <a href="#service">Service</a>
-                                </li>
+                                </li> --}}
                                 <li id="menu-item-786"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-786">
-                                    <a href="#garantie">Garantie</a>
+                                    <a href="#service">Garantie</a>
                                 </li>
                                 <li id="menu-item-1571"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1571">
@@ -42,11 +41,11 @@
                                 </li>
                                 <li id="menu-item-789"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-789">
-                                    <a href="#blog">Blog</a>
+                                    <a href="{{ route('blog') }}">Blog</a>
                                 </li>
                                 <li id="menu-item-187"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187">
-                                    <a href="#">Contact</a>
+                                    <a href="{{ route('contact') }}">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -68,13 +67,13 @@
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-1036 active active">
                                     <a title="Accueil" href="/">Accueil</a>
                                 </li>
-                                <li
+                                {{-- <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-885">
                                     <a title="Services" href="#service">Services</a>
-                                </li>
+                                </li> --}}
                                 <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-786">
-                                    <a title="Garantie" href="#garantie">Garantie</a>
+                                    <a title="Garantie" href="#service">Garantie</a>
                                 </li>
                                 <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1571">
@@ -82,18 +81,17 @@
                                 </li>
                                 <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-789">
-                                    <a title="Blog" href="#blog">Blog</a>
+                                    <a title="Blog" href="{{ route('blog') }}">Blog</a>
                                 </li>
-                                <li
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187">
-                                    <a title="Contact" href="#blog">Contact</a>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187">
+                                    <a title="Contact" href="{{ route('contact') }}">Contact</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </nav>
 </header>

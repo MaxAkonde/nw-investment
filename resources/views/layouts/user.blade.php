@@ -481,11 +481,11 @@
             }
         </style>
 
-        @include('layouts.inc.header')
+        @include('layouts.inc.user.header')
 
         @yield('content')
 
-        @include('layouts.inc.footer')
+        @include('layouts.inc.user.footer')
     </div>
     <script>
         (function() {

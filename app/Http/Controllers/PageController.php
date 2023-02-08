@@ -20,4 +20,9 @@ class PageController extends Controller
     {
         return view('blog');
     }
+
+    public function mention()
+    {
+        return 'mentions légales';
+    }
 }

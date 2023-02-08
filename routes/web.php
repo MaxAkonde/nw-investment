@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\TopicController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,7 +21,10 @@ Route::get('/', function () {
 
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/blog', [PageController::class, 'blog'])->name('blog');
+Route::get('/mentions', [PageController::class, 'mention'])->name('mention');
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('/topics', TopicController::class);

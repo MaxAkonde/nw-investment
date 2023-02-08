@@ -34,8 +34,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <div id="media_image-4" class="footer-widget widget_media_image"><a href="#"><img
-                                width="184" height="40"
-                                src="{{ asset('wp-content/uploads/2018/02/logo.png') }}"
+                                width="184" height="40" src="{{ asset('wp-content/uploads/2018/02/logo.png') }}"
                                 class="image wp-image-1632  attachment-full size-full" alt=""
                                 style="max-width: 100%; height: auto;" /></a></div>
                     <div id="text-3" class="footer-widget widget_text">
@@ -65,12 +64,12 @@
                         <h3 class="widget-title">Liens Utiles</h3>
                         <div class="textwidget">
                             <ul class="list-dash">
-                                <li><a href="#">Acceuil</a></li>
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Garantie</a></li>
-                                <li><a href="#">Avis</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="/">Acceuil</a></li>
+                                <li><a href="#service">Garantie</a></li>
+                                <li><a href="#avis">Avis</a></li>
+                                <li><a href="{{ route('blog') }}">Blog</a></li>
+                                <li><a href="{{ route('contact') }}">Contact</a></li>
+                                <li><a href="#">Mentions légales</a></li>
                             </ul>
                         </div>
                     </div>
@@ -94,8 +93,8 @@
                                 }
                             })();
                         </script>
-                        <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-1264" method="post"
-                            data-id="1264" data-name="">
+                        <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-1264" method="post" data-id="1264"
+                            data-name="">
                             <div class="mc4wp-form-fields">
                                 <div class="finances-newsletter">
                                     <div class="newsletter-introtext">Ne manquez pas de vous abonner à nos
@@ -108,11 +107,10 @@
                                     </div>
                                 </div>
                             </div><label style="display: none !important;">Leave this field empty if you're
-                                human: <input type="text" name="_mc4wp_honeypot" value=""
-                                    tabindex="-1" autocomplete="off" /></label><input type="hidden"
-                                name="_mc4wp_timestamp" value="1675068139" /><input type="hidden"
-                                name="_mc4wp_form_id" value="1264" /><input type="hidden"
-                                name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+                                human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1"
+                                    autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp"
+                                value="1675068139" /><input type="hidden" name="_mc4wp_form_id" value="1264" /><input
+                                type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
                             <div class="mc4wp-response"></div>
                         </form>
                     </div>
@@ -135,23 +133,23 @@
                     <ul id="footer-menu" class="nav unstyled">
                         <li id="menu-item-1363"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1363">
-                            <a href="#">Accueil</a>
+                            <a href="/">Accueil</a>
                         </li>
-                        <li id="menu-item-1364"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a
-                                href="#">Service</a></li>
                         <li id="menu-item-1365"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1365"><a
-                                href="#">Garantie</a></li>
+                                href="#service">Garantie</a></li>
                         <li id="menu-item-1367"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1367"><a
-                                href="#">Avis</a></li>
+                                href="#avis">Avis</a></li>
                         <li id="menu-item-1368"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1368"><a
-                                href="#">Blog</a></li>
+                                href="{{ route('blog') }}">Blog</a></li>
                         <li id="menu-item-1369"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1369"><a
-                                href="#">Contact</a></li>
+                                href="{{ route('contact') }}">Contact</a></li>
+                        <li id="menu-item-1370"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1369"><a
+                                href="#">Mentions légales</a></li>
                     </ul>
                 </div>
             </div>
@@ -161,8 +159,7 @@
             </div>
         </div>
         <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
-            <button class="btn btn-primary" title="Back to Top"><i
-                    class="fa fa-angle-double-up"></i></button>
+            <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
         </div>
     </div>
 </div>
