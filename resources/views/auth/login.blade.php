@@ -11,11 +11,11 @@
         content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="shortcut icon" href="{{ asset('adminkit/img/icons/icon-48x48.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('admin/img/icons/icon-48x48.png') }}" />
 
     <title>Sign In | AdminKit</title>
 
-    <link href="{{ asset('adminkit/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('admin/css/app.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
@@ -91,7 +91,7 @@
         </div>
     </main>
 
-    <script src="{{ asset('adminkit/js/app.js') }}"></script>
+    <script src="{{ asset('admin/js/app.js') }}"></script>
 
 </body>
 
