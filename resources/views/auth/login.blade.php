@@ -37,7 +37,7 @@
                             <div class="card-body">
                                 <div class="m-sm-4">
                                     <div class="text-center">
-                                        <img src="{{ asset('adminkit/img/avatars/avatar.jpg') }}" alt="Charles Hall"
+                                        <img src="{{ asset('admin/img/avatars/avatar.jpg') }}" alt="Charles Hall"
                                             class="img-fluid rounded-circle" width="132" height="132" />
                                     </div>
                                     <form method="POST" action="{{ route('login') }}">

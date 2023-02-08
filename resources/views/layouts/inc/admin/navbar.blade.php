@@ -19,7 +19,7 @@
             </li>
 
             <li class="sidebar-item {{ $active == 'posts' ? 'active' : '' }}">
-                <a class="sidebar-link" href="#">
+                <a class="sidebar-link" href="{{ route('posts.index') }}">
                     <i class="align-middle" data-feather="book-open"></i> <span class="align-middle">Articles</span>
                 </a>
             </li>
