@@ -22,18 +22,14 @@
                     <div class="menubar site-nav-inner">
 
                         <div class="navbar-responsive-collapse ">
-                            <ul id="main-menu" class="nav navbar-nav main-menu">
+                            <ul id="main-menu" class="nav navbar-nav main-menu" style="text-align: center">
                                 <li id="menu-item-1036"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-1036">
                                     <a href="/">Accueil</a>
                                 </li>
-                                {{-- <li id="menu-item-885"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-885">
-                                    <a href="#service">Service</a>
-                                </li> --}}
                                 <li id="menu-item-786"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-786">
-                                    <a href="#service">Garantie</a>
+                                    <a href="#service">Confiance</a>
                                 </li>
                                 <li id="menu-item-1571"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1571">
@@ -73,7 +69,7 @@
                                 </li> --}}
                                 <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-786">
-                                    <a title="Garantie" href="#service">Garantie</a>
+                                    <a title="Garantie" href="#service">Confiance</a>
                                 </li>
                                 <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1571">

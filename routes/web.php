@@ -23,6 +23,7 @@ Route::get('/', function () {
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/blog', [PageController::class, 'blog'])->name('blog');
 Route::get('/mentions', [PageController::class, 'mention'])->name('mention');
+Route::get('/conditions', [PageController::class, 'conditions'])->name('conditions');
 
 Auth::routes();
 

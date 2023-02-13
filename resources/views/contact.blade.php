@@ -295,7 +295,7 @@
                                                     </span>
                                                     <div class="ts-contact-content">
                                                         <h3 class="ts-contact-title">Adresse</h3>
-                                                        <p>1010 Avenue, NY 90001, USA</p>
+                                                        <p>71-75 Shelton Street Covent Garden London WC2H 9JQ</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -311,7 +311,10 @@
                                                         </span>
                                                         <div class="ts-contact-content">
                                                             <h3 class="ts-contact-title">Appelez nous</h3>
-                                                            <p>1+(91) 458 654 528</p>
+                                                            <p>
+                                                                (+44) 7436-8432-98 <br>
+                                                                (+44) 020-382-880-765
+                                                            </p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -327,7 +330,9 @@
                                                             </span>
                                                             <div class="ts-contact-content">
                                                                 <h3 class="ts-contact-title">Contactez nous</h3>
-                                                                <p>info@example.com</p>
+                                                                <p>
+                                                                    <br>
+                                                                    contact@nw-investments.com</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -419,7 +424,7 @@
                                                         <div class="mapouter">
                                                             <div class="gmap_canvas"><iframe width="1400"
                                                                     height="405" id="gmap_canvas"
-                                                                    src="https://maps.google.com/maps?q=121%20King%20StMelbourne%20VIC%203000%2C%20Australia&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.2768097549897!2d-0.13219646903295926!3d51.48978761448582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876058c7c9527fb%3A0x79bc7464573598c1!2s71-75%20Shelton%20Street%2C%20London%20WC2H%209JQ%2C%20Royaume-Uni!5e0!3m2!1sfr!2sbj!4v1676279480925!5m2!1sfr!2sbj"
                                                                     frameborder="0" scrolling="no" marginheight="0"
                                                                     marginwidth="0"></iframe><a
                                                                     href="#"></a></div>

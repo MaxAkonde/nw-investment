@@ -34,7 +34,7 @@
                                                                 <a target="_self" href="#"
                                                                     class="slider btn btn-primary"> Notre
                                                                     service</a>
-                                                                <a target="_self" href="#"
+                                                                <a target="_self" href="{{ route('contact') }}"
                                                                     class="slider btn btn-border"> Contactez
                                                                     Nous</a>
                                                             </p>
@@ -56,7 +56,7 @@
                                                                 <a target="_self" href="#"
                                                                     class="slider btn btn-primary"> Notre
                                                                     service</a>
-                                                                <a target="_self" href="#"
+                                                                <a target="_self" href="{{ route('contact') }}"
                                                                     class="slider btn btn-border"> Contactez
                                                                     Nous</a>
                                                             </p>
@@ -82,7 +82,7 @@
                                                                 <a target="_self" href="#"
                                                                     class="slider btn btn-primary"> Notre
                                                                     service</a>
-                                                                <a target="_self" href="#"
+                                                                <a target="_self" href="{{ route('contact') }}"
                                                                     class="slider btn btn-border"> Contactez
                                                                     Nous</a>
                                                             </p>
@@ -300,7 +300,7 @@
                             <div id="xs-col-c1aeba22" class="fw-col-md-4     xs-sc-c1aeba22    ">
                                 <div class="fw-main-row">
                                     <div class="fw-col-inner">
-                                        <div class="text-right "> <a target="_self" href="#"
+                                        <div class="text-right "> <a target="_self" href="{{ route('contact') }}"
                                                 class="margin-top-20 margin-right-10 btn btn-primary">
                                                 Contactez-nous</a>
                                         </div>
@@ -356,6 +356,7 @@
                 </div>
             </div>
         </section>
+
         <section id="xs-sec-0a1a81fb" class="fw-main-row parallax-section  xs-sc-0a1a81fb text-center  section-padding">
             <div class="xs-main-overlay"></div>
             <div class="fw-container">
@@ -453,17 +454,28 @@
                                             personnalisées.</p>
                                     </div>
                                     <div class="fw-list list-default  ">
-                                        <ul>
-                                            <li>0 commissions ni frais cachés.
+                                        <ol>
+                                            <li style="list-style-type: none">
+                                                <i class="fa fa-calculator" aria-hidden="true"></i>
+                                                0 commissions ni frais cachés.
                                             </li>
-                                            <li>Retour sur investissement garantie
+                                            <li style="list-style-type: none">
+                                                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                                                Retour sur investissement garantie
                                             </li>
-                                            <li>Assurance Capital.
+                                            <li style="list-style-type: none">
+                                                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                                Assurance Capital.
                                             </li>
-                                            <li>Confidentialité.
+                                            <li style="list-style-type: none">
+                                                <i class="fa fa-university" aria-hidden="true"></i>
+                                                Confidentialité.
                                             </li>
-                                            <li>Service Client à l’écoute.</li>
-                                        </ul>
+                                            <li style="list-style-type: none">
+                                                <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                                Service Client à l’écoute.
+                                            </li>
+                                        </ol>
                                     </div>
                                 </div>
                             </div>
@@ -484,7 +496,38 @@
                 </div>
             </div>
         </section>
-
+        <section id="garantie" class="fw-main-row   xs-sc-1f6a129c   ">
+            <div class="xs-main-overlay"></div>
+            <div class="fw-container">
+                <div class="fw-row">
+                    <div class="fw-col-inner">
+                        <div id="xs-col-ab06aaee" class="fw-col-md-8     xs-sc-ab06aaee    ">
+                            <div class="fw-main-row">
+                                <div class="fw-col-inner">
+                                    <div class="call-to-action ">
+                                        <h3>Investir et rentabiliser à court terme à votre portée.</h3>
+                                        <p class="call-to-action-details">Rejoignez notre communauté
+                                            d'investisseurs en confiance et laissez-nous vous
+                                            aider à atteindre vos objectifs financiers.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fw-col-inner">
+                            <div id="xs-col-c1aeba22" class="fw-col-md-4     xs-sc-c1aeba22    ">
+                                <div class="fw-main-row">
+                                    <div class="fw-col-inner">
+                                        <div class="text-right "> <a target="_self" href="{{ route('contact') }}"
+                                                class="margin-top-20 margin-right-10 btn btn-primary">
+                                                Contactez-nous</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
         <section id="avis" class="fw-main-row parallax-section  xs-sc-3832556b   ">
             <div class="xs-main-overlay"></div>
             <div class="fw-container">

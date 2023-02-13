@@ -7,14 +7,17 @@
                     <i class="icon icon-map-marker2"></i>
                     <div class="footer-box-content">
                         <h3>Adresse</h3>
-                        <p>1010 Avenue, NY 90001, USA</p>
+                        <p>
+                            71-75 Shelton Street <br>
+                            Covent Garden London
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-4 footer-box">
                     <i class="icon icon-phone3"></i>
                     <div class="footer-box-content">
                         <h3>Appelez nous</h3>
-                        <p>(+00) 000-000-0000</p>
+                        <p>+44 7436 8432 98</p>
                     </div>
                 </div>
                 <div class="col-md-4 footer-box">
@@ -22,7 +25,7 @@
                     <div class="footer-box-content">
                         <h3>Contactez nous</h3>
                         <p><a href="#" class="__cf_email__"
-                                data-cfemail="c5acaba3aa85a0bda4a8b5a9a0eba6aaa8">contact@contact.com</a>
+                                data-cfemail="c5acaba3aa85a0bda4a8b5a9a0eba6aaa8">contact@nw-investments.com</a>
                         </p>
                     </div>
                 </div>
@@ -48,14 +51,14 @@
                     </div>
                     <div id="xs-social-2" class="footer-widget bizipress_widget">
                         <div class="footer-social">
-                            <ul class="xs-social-list xs-social-list-v6 bizipress-social-list">
+                            {{-- <ul class="xs-social-list xs-social-list-v6 bizipress-social-list">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
@@ -65,11 +68,12 @@
                         <div class="textwidget">
                             <ul class="list-dash">
                                 <li><a href="/">Acceuil</a></li>
-                                <li><a href="#service">Garantie</a></li>
+                                <li><a href="#service">Confiance</a></li>
                                 <li><a href="#avis">Avis</a></li>
                                 <li><a href="{{ route('blog') }}">Blog</a></li>
                                 <li><a href="{{ route('contact') }}">Contact</a></li>
-                                <li><a href="#">Mentions légales</a></li>
+                                <li><a href="{{ route('mention') }}">Mentions légales</a></li>
+                                <li><a href="{{ route('conditions') }}">Conditons Générales</a></li>
                             </ul>
                         </div>
                     </div>
@@ -123,7 +127,7 @@
 <div class="copyright  ">
     <div class="container">
         <div class="row border-top">
-            <div class="col-sm-6">
+            {{-- <div class="col-sm-6">
                 <div class="copyright-info">
                     <span> Copyright {{ date('Y') }} Bizipress. All Rights Reserved</span>
                 </div>
@@ -137,7 +141,7 @@
                         </li>
                         <li id="menu-item-1365"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1365"><a
-                                href="#service">Garantie</a></li>
+                                href="#service">Confiance</a></li>
                         <li id="menu-item-1367"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1367"><a
                                 href="#avis">Avis</a></li>
@@ -152,10 +156,21 @@
                                 href="#">Mentions légales</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> --}}
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
+                © Copyright 2023 | www.nw-investments.com | Tous droits réservés | 007 INC LTD est une société
+                enregistrée à Londres située au 71-75 Shelton Street Covent Garden London et utilisée avec permission.
+
+                Notre entreprise agit en tant que gestionnaire de fonds et d'investissements et nous fournissons des
+                conseils et des services en matière d'investissement. Nous ne garantissons pas la performance des fonds
+                et des investissements gérés et les investissements financiers comportent des risques. Les performances
+                passées ne garantissent pas les résultats futurs.Il est de la responsabilité des investisseurs de
+                comprendre les risques associés à leurs investissements et de prendre leurs propres décisions en
+                conséquence. Nous ne sommes pas responsables des pertes éventuelles subies par les investisseurs.Nous
+                déclinons toute responsabilité pour tout dommage direct ou indirect résultant de nos conseils ou
+                services, y compris les erreurs, omissions ou inexactitudes.
             </div>
         </div>
         <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">

@@ -23,6 +23,11 @@ class PageController extends Controller
 
     public function mention()
     {
-        return 'mentions légales';
+        return view('mention');
+    }
+
+    public function conditions()
+    {
+        return view('condition');
     }
 }
