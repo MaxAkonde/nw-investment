@@ -604,46 +604,24 @@
                                 <div class="fw-main-row">
                                     <div class="fw-col-inner">
                                         <div id="testimonial-slide" class="owl-carousel owl-theme testimonial-slide">
-                                            <div class="item">
-                                                <div class="quote-item">
-                                                    <p class="quote-text">
-                                                        The Forexnic loan has been the most attractive loan products
-                                                        on the market, helping numerous businesses gain access to
-                                                        financing they would not be able to obtain conventionally
-                                                        and at extremely favorable rates and terms. </p>
-                                                    <div class="quote-item-footer">
-                                                        <img class="testimonial-thumb"
-                                                            src="../wp-content/uploads/2018/01/testimonial1.png"
-                                                            alt="Sarah Arevik">
-                                                        <div class="quote-item-info">
-                                                            <h3 class="quote-author">Sarah Arevik <span
-                                                                    class="quote-subtext">
-                                                                    Chief Executive</span>
-                                                            </h3>
+                                            @foreach ($avis as $item)
+                                                <div class="item">
+                                                    <div class="quote-item">
+                                                        <p class="quote-text">{{ $item->description }}</p>
+                                                        <div class="quote-item-footer">
+                                                            <img class="testimonial-thumb"
+                                                                src="../wp-content/uploads/2018/01/testimonial1.png"
+                                                                alt="Sarah Arevik">
+                                                            <div class="quote-item-info">
+                                                                <h3 class="quote-author">{{ $item->name }}
+                                                                    <span class="quote-subtext">
+                                                                        Client(e)</span>
+                                                                </h3>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="item">
-                                                <div class="quote-item">
-                                                    <p class="quote-text">
-                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                                        sed do eiusmod tempor inci done idunt ut labore et dolore
-                                                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                                        exercitoa tion ullamco laboris nisi aliquip consequat. </p>
-                                                    <div class="quote-item-footer">
-                                                        <img class="testimonial-thumb"
-                                                            src="../wp-content/uploads/2018/01/testimonial2.png"
-                                                            alt="Narek Bedros">
-                                                        <div class="quote-item-info">
-                                                            <h3 class="quote-author">Narek Bedros <span
-                                                                    class="quote-subtext">
-                                                                    Sr. Manager</span>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            @endforeach
                                         </div>
                                     </div>
                                 </div>
@@ -666,72 +644,48 @@
                                     <div class="col-md-6">
                                         <div class="latest-post post-large">
                                             <div class="latest-post-media">
-                                                <a href="../2018/01/17/apple-reveals-its-new/index.html"
-                                                    class="latest-post-img">
+                                                <a href="#" class="latest-post-img">
                                                     <img class="img-responsive"
-                                                        src="../wp-content/uploads/2018/01/news1-555x345.jpg"
-                                                        alt="Apple reveals its new Melbourne flagship store">
+                                                        src="{{ asset('assets/posts/'.$first_post->image) }}"
+                                                        alt="{{ $first_post->title }}">
                                                 </a>
                                                 <div class="post-cat">
-                                                    <a href="../category/news/index.html" rel="category tag">News</a>
+                                                    <a href="#"
+                                                        rel="category tag">{{ $first_post->topic->name }}</a>
                                                 </div>
                                                 <div class="post-body">
-                                                    <span class="post-item-date">Jan 17, 2018</span>
+                                                    <span
+                                                        class="post-item-date">{{ $first_post->created_at->format('M d, Y') }}</span>
                                                     <h4 class="post-title">
-                                                        <a href="../2018/01/17/apple-reveals-its-new/index.html">Apple
-                                                            reveals its new Melbourne flagship store</a>
+                                                        <a href="#">{{ $first_post->title }}</a>
                                                     </h4>
-                                                    <a class="btn btn-primary"
-                                                        href="../2018/01/17/apple-reveals-its-new/index.html">Read
-                                                        More</a>
+                                                    <a class="btn btn-primary" href="#">En savoir plus</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
-                                        <div class="latest-post">
-                                            <div class="post-body">
-                                                <div class="post-cat">
-                                                    <a href="../category/news/index.html" rel="category tag">News</a>
-                                                </div>
-                                                <h4 class="post-title">
-                                                    <a href="../2018/01/17/bitcoin-is-the-gag-gift/index.html">Bitcoin
-                                                        is the gag gift you should buy this holiday season</a>
-                                                </h4>
-                                                <span class="post-item-date">Jan 17, 2018</span>
-                                                <div class="post-text">
-                                                    <p>What a crazy time. I have five children in colleghigh… </p>
-                                                    <div class="text-right">
-                                                        <a href="../2018/01/17/bitcoin-is-the-gag-gift/index.html">Read
-                                                            More <i class="fa fa-long-arrow-right"> </i></a>
+                                    @foreach ($offset as $item)
+                                        <div class="col-md-3">
+                                            <div class="latest-post">
+                                                <div class="post-body">
+                                                    <div class="post-cat">
+                                                        <a href="#" rel="category tag">{{ $item->topic->name }}</a>
+                                                    </div>
+                                                    <h4 class="post-title">
+                                                        <a href="#">{{ $item->title }}</a>
+                                                    </h4>
+                                                    <span class="post-item-date">Jan 17, 2018</span>
+                                                    <div class="post-text">
+                                                        {!! $item->excerpt() !!}
+                                                        <div class="text-right">
+                                                            <a href="#">En savoir
+                                                                plus <i class="fa fa-long-arrow-right"> </i></a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="latest-post">
-                                            <div class="post-body">
-                                                <div class="post-cat">
-                                                    <a href="../category/news/index.html" rel="category tag">News</a>
-                                                </div>
-                                                <h4 class="post-title">
-                                                    <a
-                                                        href="../2018/01/17/uber-is-selling-off-its-auto-leasing-business/index.html">Uber
-                                                        is selling off its auto-leasing business</a>
-                                                </h4>
-                                                <span class="post-item-date">Jan 17, 2018</span>
-                                                <div class="post-text">
-                                                    <p>What a crazy time. I have five children in colleghigh… </p>
-                                                    <div class="text-right">
-                                                        <a
-                                                            href="../2018/01/17/uber-is-selling-off-its-auto-leasing-business/index.html">Read
-                                                            More <i class="fa fa-long-arrow-right"> </i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @endforeach
                                 </div>
                             </div>
                         </div>

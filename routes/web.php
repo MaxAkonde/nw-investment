@@ -17,9 +17,7 @@ use App\Http\Controllers\TopicController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PageController::class, 'home']);
 
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/blog', [PageController::class, 'blog'])->name('blog');

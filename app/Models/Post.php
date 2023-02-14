@@ -16,8 +16,8 @@ class Post extends Model
         return $this->belongsTo(Topic::class);
     }
 
-    public function execpt()
+    public function excerpt()
     {
-        return substr($this->description, 0, 300);
+        return substr($this->description, 0, 55);
     }
 }
