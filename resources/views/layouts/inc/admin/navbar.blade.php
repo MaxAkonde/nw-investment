@@ -23,6 +23,11 @@
                     <i class="align-middle" data-feather="book-open"></i> <span class="align-middle">Articles</span>
                 </a>
             </li>
+            <li class="sidebar-item {{ $active == 'avis' ? 'active' : '' }}">
+                <a class="sidebar-link" href="{{ route('avis.index') }}">
+                    <i class="align-middle" data-feather="book-open"></i> <span class="align-middle">Avis</span>
+                </a>
+            </li>
         </ul>
     </div>
 </nav>
