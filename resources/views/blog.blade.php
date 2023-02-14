@@ -244,129 +244,38 @@
             <div class="row">
                 <div class="col-md-8">
 
-                    <div class="post">
+                    @foreach ($posts as $item)
+                        <div class="post">
 
-                        <div class="post-media post-image"><img width="750" height="465"
-                                src="../wp-content/uploads/2018/01/news1.jpg"
-                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> </div>
-                        <div class="post-body clearfix">
-                            <div class="post-meta-left pull-left text-center">
-                                <div class="entry-meta"><span class="post-meta-date meta-date"><span
-                                            class="day">01</span>Jan</span><span class="meta-author post-author"><img
-                                            alt=''
-                                            src='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=55&amp;d=mm&amp;r=g'
-                                            srcset='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=110&#038;d=mm&#038;r=g 2x'
-                                            class='avatar avatar-55 photo' height='55' width='55' /> <a
-                                            href="#" rel="author"> By Jhon
-                                            Bizi</a></span><span class="post-comment"><i class="icon icon-comment"></i> <a
-                                            href="#">0</a></span>
+                            <div class="post-media post-image"><img width="750" height="465"
+                                    src="{{ asset('assets/posts/'.$item->image) }}"
+                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> </div>
+                            <div class="post-body clearfix">
+                                <div class="post-meta-left pull-left text-center">
+                                    <div class="entry-meta"><span class="post-meta-date meta-date"><span
+                                                class="day">{{ $item->created_at->format('d') }}</span>{{ $item->created_at->format('M') }}</span><span class="meta-author post-author"><img
+                                                alt=''
+                                                src='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=55&amp;d=mm&amp;r=g'
+                                                srcset='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=110&#038;d=mm&#038;r=g 2x'
+                                                class='avatar avatar-55 photo' height='55' width='55' /> <a
+                                                href="#" rel="author">Nw-Investments</a></span><span class="post-comment"><i class="icon icon-comment"></i> <a
+                                                href="#">0</a></span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="post-content-right">
-                                <div class="entry-header">
-                                    <div class="post-meta"><span class="meta-categories post-cat"> <i
-                                                class="icon icon-folder"></i> <a href="#"
-                                                rel="category tag">News</a>
-                                        </span><span class="tagcloud"><i class="icon icon-tag"></i> <a
-                                                href="#" rel="tag">funds</a>, <a
-                                                href="#" rel="tag">insurance</a>
-                                        </span></div>
-                                    <h2 class="entry-title"><a href="#">Apple
-                                            reveals its
-                                            new Melbourne flagship store</a></h2>
-                                    <div class="entry-content">
-                                        What a crazy time. I have five children in colleghigh school graduates.jpge
-                                        or pursing post graduate studies (ages 18 through 26 for those who were
-                                        wondering). Each of my children attends college far from home,&hellip;</div>
-                                    <div class="post-footer text-right"><a
-                                            href="#"
-                                            class="btn btn-primary">Continue Reading</a> </div>
+                                <div class="post-content-right">
+                                    <div class="entry-header">
+                                        <div class="post-meta"><span class="meta-categories post-cat"> <i
+                                                    class="icon icon-folder"></i> <a href="#" rel="category tag">{{ $item->topic->name }}</a>
+                                            </span></div>
+                                        <h2 class="entry-title"><a href="{{ route('single', $item) }}">{{ $item->title }}</a></h2>
+                                        <div class="entry-content">
+                                            {!! $item->short() !!}</div>
+                                        <div class="post-footer text-right"><a href="{{ route('single', $item) }}" class="btn btn-primary">En savoir plus</a> </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="post">
-
-                        <div class="post-media post-image"><img width="750" height="465"
-                                src="../wp-content/uploads/2018/01/news2.jpg"
-                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> </div>
-                        <div class="post-body clearfix">
-                            <div class="post-meta-left pull-left text-center">
-                                <div class="entry-meta"><span class="post-meta-date meta-date"><span
-                                            class="day">01</span>Jan</span><span class="meta-author post-author"><img
-                                            alt=''
-                                            src='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=55&amp;d=mm&amp;r=g'
-                                            srcset='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=110&#038;d=mm&#038;r=g 2x'
-                                            class='avatar avatar-55 photo' height='55' width='55' /> <a
-                                            href="#" rel="author"> By Jhon
-                                            Bizi</a></span><span class="post-comment"><i class="icon icon-comment"></i> <a
-                                            href="#">0</a></span>
-                                </div>
-                            </div>
-                            <div class="post-content-right">
-                                <div class="entry-header">
-                                    <div class="post-meta"><span class="meta-categories post-cat"> <i
-                                                class="icon icon-folder"></i> <a href="#"
-                                                rel="category tag">News</a>
-                                        </span><span class="tagcloud"><i class="icon icon-tag"></i> <a
-                                                href="#" rel="tag">insurance</a>,
-                                            <a href="#" rel="tag">tax
-                                                planning</a> </span></div>
-                                    <h2 class="entry-title"><a
-                                            href="#">Bitcoin is the
-                                            gag gift you should buy this holiday season</a></h2>
-                                    <div class="entry-content">
-                                        What a crazy time. I have five children in colleghigh school graduates.jpge
-                                        or pursing post graduate studies (ages 18 through 26 for those who were
-                                        wondering). Each of my children attends college far from home,&hellip;</div>
-                                    <div class="post-footer text-right"><a
-                                            href="#"
-                                            class="btn btn-primary">Continue Reading</a> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post">
-
-                        <div class="post-media post-image"><img width="750" height="465"
-                                src="../wp-content/uploads/2018/01/news3.jpg"
-                                class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                        </div>
-                        <div class="post-body clearfix">
-                            <div class="post-meta-left pull-left text-center">
-                                <div class="entry-meta"><span class="post-meta-date meta-date"><span
-                                            class="day">01</span>Jan</span><span class="meta-author post-author"><img
-                                            alt=''
-                                            src='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=55&amp;d=mm&amp;r=g'
-                                            srcset='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=110&#038;d=mm&#038;r=g 2x'
-                                            class='avatar avatar-55 photo' height='55' width='55' /> <a
-                                            href="#" rel="author"> By Jhon
-                                            Bizi</a></span><span class="post-comment"><i class="icon icon-comment"></i> <a
-                                            href="#">0</a></span>
-                                </div>
-                            </div>
-                            <div class="post-content-right">
-                                <div class="entry-header">
-                                    <div class="post-meta"><span class="meta-categories post-cat"> <i
-                                                class="icon icon-folder"></i> <a href="#"
-                                                rel="category tag">News</a>
-                                        </span><span class="tagcloud"><i class="icon icon-tag"></i> <a
-                                                href="#" rel="tag">financial</a>,
-                                            <a href="#" rel="tag">loan</a> </span></div>
-                                    <h2 class="entry-title"><a
-                                            href="#">Uber
-                                            is selling off its auto-leasing business</a></h2>
-                                    <div class="entry-content">
-                                        What a crazy time. I have five children in colleghigh school graduates.jpge
-                                        or pursing post graduate studies (ages 18 through 26 for those who were
-                                        wondering). Each of my children attends college far from home,&hellip;</div>
-                                    <div class="post-footer text-right"><a
-                                            href="#"
-                                            class="btn btn-primary">Continue Reading</a> </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                     <div class="paging text-center">
                         <ul class="pagination">
                             <li class="active"><a href="#">1</a></li>
@@ -378,8 +287,8 @@
                 <aside id="sidebar" class="sidebar sidebar-right col-md-4" role="complementary">
                     <div id="search-2" class="widget widget_search">
                         <div class="search-widget input-group">
-                            <form method="get" action="https://demo.xpeedstudio.com/wp/bizipress/" id="search">
-                                <input type="text" name="s" class="form-control" placeholder="Search.."
+                            <form method="get" action="#" id="search">
+                                <input type="text" name="s" class="form-control" placeholder="Recherche.."
                                     value="">
                                 <span class="input-group-btn">
                                     <i class="fa fa-search"></i>
@@ -388,81 +297,25 @@
                         </div>
                     </div>
                     <div id="recent-posts-2" class="widget widget_recent_entries">
-                        <h3 class="widget-title">Recent Posts</h3>
+                        <h3 class="widget-title">Articles recents</h3>
                         <ul>
-                            <li>
-                                <a href="#">Apple reveals its new
-                                    Melbourne flagship store</a>
-                            </li>
-                            <li>
-                                <a href="#">Bitcoin is the gag gift
-                                    you should buy this holiday season</a>
-                            </li>
-                            <li>
-                                <a href="#">Uber
-                                    is selling off its auto-leasing business</a>
-                            </li>
-                            <li>
-                                <a href="#">Website encourages
-                                    scrolling</a>
-                            </li>
-                            <li>
-                                <a href="#">The
-                                    tibrantly colorful birds of Costa</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="recent-comments-2" class="widget widget_recent_comments">
-                        <h3 class="widget-title">Recent Comments</h3>
-                        <ul id="recentcomments">
-                            <li class="recentcomments"><span class="comment-author-link">admin</span> on <a
-                                    href="#">Website
-                                    encourages scrolling</a></li>
-                            <li class="recentcomments"><span class="comment-author-link">admin</span> on <a
-                                    href="#">Website
-                                    encourages scrolling</a></li>
-                            <li class="recentcomments"><span class="comment-author-link">admin</span> on <a
-                                    href="#">Website
-                                    encourages scrolling</a></li>
-                            <li class="recentcomments"><span class="comment-author-link">admin</span> on <a
-                                    href="#">Website
-                                    encourages scrolling</a></li>
-                            <li class="recentcomments"><span class="comment-author-link">admin</span> on <a
-                                    href="#">Travel
-                                    on an exciting adventur Gap</a></li>
-                        </ul>
-                    </div>
-                    <div id="archives-2" class="widget widget_archive">
-                        <h3 class="widget-title">Archives</h3>
-                        <ul>
-                            <li><a href='#'>January 2018</a></li>
-                            <li><a href='#'>February 2017</a></li>
-                            <li><a href='#'>January 2017</a></li>
+                            @foreach ($blog as $item)
+                                <li>
+                                    <a href="{{ route('single', $item) }}">{{ $item->title }}</a>
+                                </li>
+                            @endforeach
                         </ul>
                     </div>
                     <div id="categories-2" class="widget widget_categories">
                         <h3 class="widget-title">Categories</h3>
                         <ul>
-                            <li class="cat-item cat-item-8"><a href="#">News</a>
-                            </li>
-                            <li class="cat-item cat-item-1"><a
-                                    href="#">Uncategorized</a>
-                            </li>
+                            @foreach ($topics as $item)
+                                <li class="cat-item cat-item-8"><a href="#">{{ $item->name }}</a>
+                                </li>
+                            @endforeach
                         </ul>
                     </div>
-                    <div id="meta-2" class="widget widget_meta">
-                        <h3 class="widget-title">Meta</h3>
-                        <ul>
-                            <li><a href="#">Log in</a></li>
-                            <li><a href="#">Entries <abbr
-                                        title="Really Simple Syndication">RSS</abbr></a></li>
-                            <li><a href="#">Comments <abbr
-                                        title="Really Simple Syndication">RSS</abbr></a></li>
-                            <li><a href="#"
-                                    title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a>
-                            </li>
-                        </ul>
-                    </div>
+
                 </aside>
             </div>
         </div>

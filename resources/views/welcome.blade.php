@@ -644,7 +644,7 @@
                                     <div class="col-md-6">
                                         <div class="latest-post post-large">
                                             <div class="latest-post-media">
-                                                <a href="#" class="latest-post-img">
+                                                <a href="{{ route('single', $item) }}" class="latest-post-img">
                                                     <img class="img-responsive"
                                                         src="{{ asset('assets/posts/'.$first_post->image) }}"
                                                         alt="{{ $first_post->title }}">
@@ -657,9 +657,9 @@
                                                     <span
                                                         class="post-item-date">{{ $first_post->created_at->format('M d, Y') }}</span>
                                                     <h4 class="post-title">
-                                                        <a href="#">{{ $first_post->title }}</a>
+                                                        <a href="{{ route('single', $item) }}">{{ $first_post->title }}</a>
                                                     </h4>
-                                                    <a class="btn btn-primary" href="#">En savoir plus</a>
+                                                    <a class="btn btn-primary" href="{{ route('single', $item) }}">En savoir plus</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -672,13 +672,13 @@
                                                         <a href="#" rel="category tag">{{ $item->topic->name }}</a>
                                                     </div>
                                                     <h4 class="post-title">
-                                                        <a href="#">{{ $item->title }}</a>
+                                                        <a href="{{ route('single', $item) }}">{{ $item->title }}</a>
                                                     </h4>
                                                     <span class="post-item-date">Jan 17, 2018</span>
                                                     <div class="post-text">
                                                         {!! $item->excerpt() !!}
                                                         <div class="text-right">
-                                                            <a href="#">En savoir
+                                                            <a href="{{ route('single', $item) }}">En savoir
                                                                 plus <i class="fa fa-long-arrow-right"> </i></a>
                                                         </div>
                                                     </div>

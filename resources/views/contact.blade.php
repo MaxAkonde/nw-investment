@@ -251,7 +251,7 @@
                         <div class="banner-heading">
                             <h1 class="banner-title">Contactez nous</h1>
                             <ol class="breadcrumb">
-                                <li><a href="#">Accueil</a></li>
+                                <li><a href="/">Accueil</a></li>
                                 <li>Contact</li>
                             </ol>
                         </div>
@@ -400,7 +400,7 @@
                                                                     <div class="col-md-12">
                                                                         <p><span class="wpcf7-form-control-wrap textarea">
                                                                                 <textarea name="textarea" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea"
-                                                                                    aria-invalid="false" placeholder="Comments"></textarea>
+                                                                                    aria-invalid="false" placeholder="Message"></textarea>
                                                                             </span></p>
                                                                         <p><input type="submit" value="Envoyer"
                                                                                 class="wpcf7-form-control wpcf7-submit btn btn-primary"><span

@@ -20,4 +20,9 @@ class Post extends Model
     {
         return substr($this->description, 0, 55);
     }
+
+    public function short()
+    {
+        return substr($this->description, 0, 210);
+    }
 }
