@@ -610,7 +610,7 @@
                                                         <p class="quote-text">{{ $item->description }}</p>
                                                         <div class="quote-item-footer">
                                                             <img class="testimonial-thumb"
-                                                                src="../wp-content/uploads/2018/01/testimonial1.png"
+                                                                src="https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=55&amp;d=mm&amp;r=g"
                                                                 alt="Sarah Arevik">
                                                             <div class="quote-item-info">
                                                                 <h3 class="quote-author">{{ $item->name }}
