@@ -27,6 +27,10 @@ Route::get('/conditions', [PageController::class, 'conditions'])->name('conditio
 
 Auth::routes();
 
+Route::get('/register', function() {
+    return 'Access denied !';
+});
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::resource('/topics', TopicController::class);
