@@ -381,12 +381,12 @@
                                                                     </div>
                                                                     <div class="col-md-12">
                                                                         <p><span class="wpcf7-form-control-wrap text"><input
-                                                                                    type="text" name="text"
+                                                                                    type="text" name="number"
                                                                                     value="" size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                     aria-required="true"
                                                                                     aria-invalid="false"
-                                                                                    placeholder="Site Web"></span></p>
+                                                                                    placeholder="Numéro de téléphone"></span></p>
                                                                     </div>
                                                                     <div class="col-md-12">
                                                                         <p><span class="wpcf7-form-control-wrap email"><input
