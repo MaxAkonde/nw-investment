@@ -35,16 +35,15 @@
                                                     <h3 class='xs-title content-title boder-none'> Condition Générales </h3>
                                                 </div>
                                                 <div class="xs-text-block  xs-text-block-cc99f650">
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:12.0pt;font-family:Roboto;color:black'>Définitions</span>
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Définitions</span>
                                                     </p>
 
                                                     <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:12.0pt;font-family:Roboto;color:black'>a.
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span>a.
                                                             Portefeuille -
                                                             désigne l’ensemble d'actifs financiers détenus par le client et
                                                             gérés par la
@@ -52,23 +51,18 @@
                                                             (ci-après
                                                             désignée &quot;Société&quot;).</span></p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:12.0pt;font-family:Roboto;color:black'>b.
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span>b.
                                                             Société - désigne la
                                                             Société de Gestion de Patrimoine et de Portefeuille
                                                             Financier.</span></p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:12.0pt;font-family:Roboto;color:black'>c.
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span>c.
                                                             Client - désigne la
                                                             personne ou l'entité qui a confié la gestion de son portefeuille
                                                             à la Société.</span></p>
 
-                                                    <p class=MsoNormal><span
-                                                            style='font-family:"Arial",sans-serif;color:black'><br>
-                                                        </span><span
-                                                            style='font-size:13.0pt;line-height:107%;font-family:Roboto;
-                                                        color:black'>Objectifs
+                                                    <p class=MsoNormal><span><br>
+                                                        </span><span>Objectifs
                                                             d'investissement : Nous travaillons en étroite
                                                             collaboration avec nos clients pour comprendre leurs objectifs
                                                             d'investissement
@@ -90,13 +84,11 @@
                                                             Reporting : Nous fournissons régulièrement des rapports
                                                             détaillés sur la</span></p>
 
-                                                    <p class=MsoNormal><span
-                                                            style='font-size:13.0pt;line-height:107%;font-family:
-                                                        Roboto;color:black'>&nbsp;</span>
+                                                    <p class=MsoNormal><span>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>performance
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>performance
                                                             de votre
                                                             portefeuille, ainsi que des analyses sur les marchés financiers
                                                             et les
@@ -125,10 +117,11 @@
                                                             <br>
                                                             <br>
                                                             <br>
-                                                        </span></p>
+                                                        </span>
+                                                    </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:12.0pt;font-family:Roboto;color:black'>Énoncé
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Énoncé
                                                             de politique :
                                                             Nous sommes déterminés à fournir des services de qualité à tous
                                                             nos clients et
@@ -153,57 +146,53 @@
                                                             conciliation.<br>
                                                             <br>
                                                             <br>
-                                                        </span></p>
+                                                        </span>
+                                                    </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:12.0pt;font-family:Roboto;color:black'>Réclamation
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Réclamation
                                                             auprès de
                                                             la Financial Ombudsman Service : Si nous ne parvenons pas à
                                                             résoudre le conflit
                                                             avec vous, vous pouvez faire une réclamation auprès de la
                                                             Financial Ombudsman
-                                                            Service.</span><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'><br>
+                                                            Service.</span><span><br>
                                                             <br>
                                                             <br>
-                                                        </span></p>
+                                                        </span>
+                                                    </p>
 
-                                                    <p class=MsoNormal><span
-                                                            style='font-size:13.0pt;line-height:107%;font-family:
-                                                        Roboto;color:black'>Éthique
+                                                    <p class=MsoNormal><span>Éthique
                                                             : Nous nous engageons à agir avec intégrité et éthique
                                                             dans toutes nos activités de gestion de fonds.<br>
                                                             <br>
-                                                        </span><span
-                                                            style='font-size:12.0pt;line-height:107%;font-family:Roboto;
-                                                        color:black'>Résolution
+                                                        </span><span>Résolution
                                                             de litige</span></p>
 
-                                                    <p class=MsoNormal><span
-                                                            style='font-size:12.0pt;line-height:107%;font-family:
-                                                        Roboto;color:black'>&nbsp;</span>
+                                                    <p class=MsoNormal><span>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:12.0pt;font-family:Roboto;color:black'>Tout
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Tout
                                                             litige entre la
                                                             Société et le client sera soumis à la loi britannique en
                                                             vigueur. Tout litige
                                                             sera soumis à la juridiction des tribunaux britanniques.</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'><br>
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span><br>
                                                             <br>
                                                             <br>
-                                                        </span></p>
+                                                        </span>
+                                                    </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Conditions
-                                                            d'utilisation</span></p>
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Conditions
+                                                            d'utilisation</span>
+                                                    </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>En
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span>En
                                                             accédant au site Web
                                                             https://nw-investments.com/, vous acceptez d'être lié par les
                                                             présentes
@@ -224,12 +213,12 @@
                                                             <br>
                                                         </span></p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Licence
-                                                            d'utilisation</span></p>
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Licence
+                                                            d'utilisation</span>
+                                                    </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>La
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span>La
                                                             permission est
                                                             accordée de télécharger temporairement une copie des matériaux
                                                             (informations ou
@@ -244,89 +233,97 @@
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Modifier
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Modifier
                                                             ou copier le
-                                                            matériel ;</span></p>
+                                                            matériel ;</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Utiliser
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Utiliser
                                                             le matériel à
                                                             des fins commerciales, ou pour tout affichage public (commercial
                                                             ou non
-                                                            commercial) ;</span></p>
+                                                            commercial) ;</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Tenter
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Tenter
                                                             de décompiler ou
                                                             de désosser tout logiciel contenu sur le site Internet de
-                                                            NW-INVESTMENTS ;</span></p>
+                                                            NW-INVESTMENTS ;</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Supprimer
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Supprimer
                                                             tout droit
                                                             d'auteur ou toute autre mention de propriété des documents ;
-                                                            ou</span></p>
+                                                            ou</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Transférer
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Transférer
                                                             les
                                                             matériaux à une autre personne ou &quot;refléter&quot; les
                                                             matériaux sur tout
-                                                            autre serveur.</span></p>
+                                                            autre serveur.</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Cette
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Cette
                                                             licence sera
                                                             automatiquement résiliée si vous violez l'une de ces
                                                             restrictions et peut être
                                                             résiliée par NW-INVESTMENTS à tout moment. Lorsque vous cessez
                                                             de consulter ces
-                                                            documents ou lorsque cette licence </span></p>
+                                                            documents ou lorsque cette licence </span>
+                                                    </p>
 
                                                     <p class=MsoNormal>&nbsp;</p>
 
                                                     <p class=MsoNormal>&nbsp;</p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Prend
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Prend
                                                             fin, vous devez
                                                             détruire tous les documents téléchargés en votre possession, que
                                                             ce soit sous
-                                                            forme électronique ou imprimée.</span></p>
+                                                            forme électronique ou imprimée.</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:12.0pt;line-height:normal'><span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
                                                             <br>
                                                         </span></p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Clause
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Clause
                                                             de
-                                                            non-responsabilité</span></p>
+                                                            non-responsabilité</span>
+                                                    </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Les
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Les
                                                             documents du site
                                                             Internet de NW-INVESTMENTS sont fournis &quot; tels quels
                                                             &quot;.
@@ -338,14 +335,14 @@
                                                             d'adéquation à un
                                                             usage particulier, ou de non-violation de la propriété
                                                             intellectuelle ou de
-                                                            toute autre violation des droits.</span></p>
+                                                            toute autre violation des droits.</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>En
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span>En
                                                             outre,
                                                             NW-INVESTMENTS ne garantit ni ne fait aucune déclaration
                                                             concernant
@@ -359,14 +356,14 @@
                                                         <span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
                                                             <br>
-                                                        </span></p>
-
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Limitations</span>
+                                                        </span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>En
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Limitations</span>
+                                                    </p>
+
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span>En
                                                             aucun cas
                                                             NW-INVESTMENTS, ou ses fournisseurs ne seront responsables de
                                                             tout dommage (y
@@ -387,12 +384,13 @@
                                                             ou accidentels, ces limitations peuvent ne pas s'appliquer à
                                                             vous.</span></p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'><br>
-                                                            Exactitude des matériaux</span></p>
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span><br>
+                                                            Exactitude des matériaux</span>
+                                                    </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Les
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Les
                                                             matériaux
                                                             apparaissant sur le site web de NW-INVESTMENTS peuvent inclure
                                                             des erreurs
@@ -402,119 +400,117 @@
                                                             actuels
                                                             NW-INVESTMENTS peut apporter des modifications au matériel
                                                             contenu sur son site
-                                                            Web à tout moment sans </span></p>
+                                                            Web à tout moment sans </span>
+                                                    </p>
 
                                                     <p class=MsoNormal>&nbsp;</p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Préavis.
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Préavis.
                                                             Cependant,
                                                             NW-INVESTMENTS ne s'engage pas à mettre à jour le
-                                                            matériel.</span></p>
+                                                            matériel.</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:12.0pt;line-height:normal'>
                                                         <span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
                                                             <br>
-                                                        </span></p>
-
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Liens</span>
+                                                        </span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>NW-INVESTMENTS
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Liens</span>
+                                                    </p>
+
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>NW-INVESTMENTS
                                                             n'a pas
                                                             examiné tous les sites liés à son site Web et n'est pas
                                                             responsable du contenu
                                                             de ces sites. L'inclusion d'un lien n'implique pas l'approbation
                                                             du site par
                                                             NW-INVESTMENTS. L'utilisation d'un tel site lié est au risque de
-                                                            l'utilisateur.</span></p>
+                                                            l'utilisateur.</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:12.0pt;line-height:normal'>
                                                         <span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
                                                             <br>
-                                                        </span></p>
-
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Modifications</span>
+                                                        </span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>NW-INVESTMENTS
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Modifications</span>
+                                                    </p>
+
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>NW-INVESTMENTS
                                                             peut
                                                             réviser les conditions de service de son site Internet à tout
                                                             moment sans
                                                             préavis. En utilisant ce site Internet, vous acceptez d'être lié
                                                             par la version
-                                                            alors en vigueur de ces conditions de service.</span></p>
+                                                            alors en vigueur de ces conditions de service.</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:12.0pt;line-height:normal'>
                                                         <span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
                                                             <br>
-                                                        </span></p>
+                                                        </span>
+                                                    </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Loi
-                                                            applicable</span></p>
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Loi
+                                                            applicable</span>
+                                                    </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'>Les
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span>Les
                                                             présentes
                                                             conditions sont régies et interprétées conformément aux lois
                                                             britanniques, et
                                                             vous vous soumettez irrévocablement à la juridiction exclusive
                                                             des tribunaux de
-                                                            cet État ou de ce lieu.</span></p>
+                                                            cet État ou de ce lieu.</span>
+                                                    </p>
 
                                                     <p class=MsoNormal style='margin-bottom:12.0pt;line-height:normal'>
                                                         <span
                                                             style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span>
                                                     </p>
 
-                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-                                                            style='font-size:13.0pt;font-family:Roboto;color:black'><br>
+                                                    <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'>
+                                                        <span><br>
                                                             En utilisant nos services, vous acceptez ces politiques de
-                                                            services et c</span><span
-                                                            style='font-size:12.0pt;font-family:Roboto;color:black'>es
+                                                            services et c</span><span>es
                                                             termes et conditions
-                                                            de gestion des conflits.</span><span
-                                                            style='font-size:13.0pt;font-family:Roboto;
-                                                        color:black'>
+                                                            de gestion des conflits.</span><span>
                                                             Nous nous réservons le droit de les modifier à tout moment pour
                                                             refléter les évolutions de nos activités et de l'industrie
                                                             financière.<br>
                                                             <br>
                                                             <br>
                                                             <br>
-                                                        </span></p>
+                                                        </span>
+                                                    </p>
 
-                                                    <p class=MsoNormal><b><span
-                                                                style='font-size:13.0pt;line-height:107%;
-                                                        font-family:Roboto;color:black'>Politique
+                                                    <p class=MsoNormal><b><span>Politique
                                                                 de non-remboursement avant échéance <br>
-                                                            </span></b><span
-                                                            style='font-size:13.0pt;line-height:107%;font-family:Roboto;
-                                                        color:black'><br>
+                                                            </span></b><span><br>
                                                             <br>
-                                                        </span><span
-                                                            style='font-size:12.0pt;line-height:107%;font-family:Roboto;
-                                                        color:black'>Énoncé
+                                                        </span><span>Énoncé
                                                             de politique : Notre politique de non-remboursement sans
                                                             échéance est conçue pour garantir la transparence et la clarté
                                                             pour les
                                                             investisseurs utilisant nos services.</span></p>
 
-                                                    <p class=MsoNormal><span
-                                                            style='font-size:12.0pt;line-height:107%;font-family:
-                                                        Roboto;color:black'>&nbsp;</span>
+                                                    <p class=MsoNormal><span>&nbsp;</span>
                                                     </p>
 
-                                                    <p style='margin:0cm'><span
-                                                            style='font-family:Roboto;color:black'>Engagement
+                                                    <p style='margin:0cm'><span>Engagement
                                                             d'investissement : En confiant leur argent à notre gestion, les
                                                             investisseurs
                                                             s'engagent à faire un investissement à long terme et à accepter
@@ -527,8 +523,7 @@
                                                             remboursement pour nos
                                                             services de gestion d'investissement.</span></p>
 
-                                                    <p style='margin:0cm'><span
-                                                            style='font-family:Roboto;color:black'><br>
+                                                    <p style='margin:0cm'><span><br>
                                                             Exceptions : Dans des circonstances exceptionnelles, telles que
                                                             des problèmes
                                                             de santé ou de force majeure, nous pouvons examiner les demandes
@@ -544,8 +539,7 @@
                                                             <br>
                                                         </span></p>
 
-                                                    <p style='margin:0cm'><span
-                                                            style='font-family:Roboto;color:black'>Cette
+                                                    <p style='margin:0cm'><span>Cette
                                                             politique de non-remboursement sans échéance est en vigueur à
                                                             compter de la
                                                             date de l'investissement et est considérée comme faisant partie

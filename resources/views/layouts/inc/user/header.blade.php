@@ -29,11 +29,11 @@
                                 </li>
                                 <li id="menu-item-786"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-786">
-                                    <a href="#service">Confiance</a>
+                                    <a href="/#service">Confiance</a>
                                 </li>
                                 <li id="menu-item-1571"
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1571">
-                                    <a href="#avis">Avis</a>
+                                    <a href="/#avis">Avis</a>
                                 </li>
                                 <li id="menu-item-789"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-789">
@@ -69,11 +69,11 @@
                                 </li> --}}
                                 <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-786">
-                                    <a title="Garantie" href="#service">Confiance</a>
+                                    <a title="Garantie" href="/#service">Confiance</a>
                                 </li>
                                 <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1571">
-                                    <a title="Avis" href="#avis">Avis</a>
+                                    <a title="Avis" href="/#avis">Avis</a>
                                 </li>
                                 <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-789">

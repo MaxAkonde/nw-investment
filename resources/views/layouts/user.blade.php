@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>NW-Investments</title>
+    <link rel="icon" type="image/png" href="{{ asset('wp-content/uploads/2018/03/ico-dark.png') }}">
     <link href="https://fonts.googleapis.com/css?family=Asap%3Aregular" rel="stylesheet">
     <link rel='dns-prefetch' href='http://s.w.org/' />
     <link rel="alternate" type="application/rss+xml" title="Bizipress &raquo; Feed" href="../feed/index.html" />
