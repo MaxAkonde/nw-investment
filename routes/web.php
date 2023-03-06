@@ -24,6 +24,7 @@ Route::get('/blog', [PageController::class, 'blog'])->name('blog');
 Route::get('/blog/{post}', [PageController::class, 'single'])->name('single');
 Route::get('/mentions', [PageController::class, 'mention'])->name('mention');
 Route::get('/conditions', [PageController::class, 'conditions'])->name('conditions');
+Route::get('/investir', [PageController::class, 'investir'])->name('investir');
 
 Auth::routes();
 

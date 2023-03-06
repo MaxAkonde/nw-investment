@@ -59,4 +59,9 @@ class PageController extends Controller
     {
         return view('condition');
     }
+
+    public function investir()
+    {
+        return view('investir');
+    }
 }

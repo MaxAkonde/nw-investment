@@ -8,10 +8,6 @@
     <title>NW-Investments</title>
     <link rel="icon" type="image/png" href="{{ asset('wp-content/uploads/2018/03/ico-dark.png') }}">
     <link href="https://fonts.googleapis.com/css?family=Asap%3Aregular" rel="stylesheet">
-    <link rel='dns-prefetch' href='http://s.w.org/' />
-    <link rel="alternate" type="application/rss+xml" title="Bizipress &raquo; Feed" href="../feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="Bizipress &raquo; Comments Feed"
-        href="../comments/feed/index.html" />
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/",
@@ -446,16 +442,6 @@
         media='all' />
     <script type='text/javascript' src='{{ asset('wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4') }}'></script>
     <script type='text/javascript' src='{{ asset('wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1') }}'></script>
-    <link rel='https://api.w.org/' href='{{ asset('wp-json/index.html') }}' />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{ asset('wp-includes/wlwmanifest.xml') }}" />
-    <meta name="generator" content="WordPress 4.9.22" />
-    <link rel="canonical" href="index.html" />
-    <link rel='shortlink' href='../index47f1.html?p=1754' />
-    <link rel="alternate" type="application/json+oembed"
-        href="{{ asset('wp-json/oembed/1.0/embed5d85.json?url=https%3A%2F%2Fdemo.xpeedstudio.com%2Fwp%2Fbizipress%2Fhome-8%2F') }}" />
-    <link rel="alternate" type="text/xml+oembed"
-        href="{{ asset('wp-json/oembed/1.0/embedc80e?url=https%3A%2F%2Fdemo.xpeedstudio.com%2Fwp%2Fbizipress%2Fhome-8%2F&amp;format=xml') }}" />
     <style type="text/css">
         .recentcomments a {
             display: inline !important;

@@ -15,7 +15,64 @@
             padding: 0 !important;
         }
     </style>
+
     <style id='bizipress-style-inline-css' type='text/css'>
+        .xs-sc-9919bd3b {
+            padding: 100px 0px 130px 0px;
+        }
+
+        .xs-sc-9919bd3b {
+            overflow: hidden;
+        }
+
+        .xs-heading-b0699a3b .xs-title span {}
+
+        .xs-heading-b0699a3b .xs-title {
+            font-size: 20px
+        }
+
+        .xs-heading-b0699a3b {
+            margin-bottom: 30px
+        }
+
+        .xs-heading-3eb6298b .xs-title span {}
+
+        .xs-heading-3eb6298b .xs-title {
+            font-size: 20px
+        }
+
+        .xs-heading-3eb6298b {
+            margin-bottom: 30px
+        }
+
+        .xs-sc-b9cf6254 {
+            padding: 0px 0px 130px 0px;
+        }
+
+        .xs-sc-b9cf6254 {
+            overflow: hidden;
+        }
+
+        .xs-heading-5f0cef08 .xs-title span {}
+
+        .xs-heading-5f0cef08 .xs-title {
+            font-size: 20px
+        }
+
+        .xs-heading-5f0cef08 {
+            margin-bottom: 30px
+        }
+
+        .xs-heading-95b426f0 .xs-title span {}
+
+        .xs-heading-95b426f0 .xs-title {
+            font-size: 20px
+        }
+
+        .xs-heading-95b426f0 {
+            margin-bottom: 30px
+        }
+
         h1,
         h2,
         h3,
@@ -217,107 +274,82 @@
             color: #fc6a2a
         }
     </style>
-    <style type="text/css">
-        .recentcomments a {
-            display: inline !important;
-            padding: 0 !important;
-            margin: 0 !important;
-        }
-    </style>
 @endsection
 
 @section('content')
-    <div id="banner-area" class="banner-area" style="background: url({{ asset('wp-content/uploads/2018/01/banner5-1.jpg') }})">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="banner-heading">
-                        <h1 class="banner-title">Articles</h1>
-                        <ol class="breadcrumb"></ol>
+    <div class="blog" role="main">
+        <div id="banner-area" class="banner-area" style="background: url({{ asset('wp-content/uploads/2018/02/banner2.jpg') }})">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="banner-heading">
+                            <h1 class="banner-title">Investir avec nous</h1>
+                            <ol class="breadcrumb">
+                                <li><a href="/">Accueil</a></li>
+                                <li>Investir avec nous</li>
+                            </ol>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="builder-content">
+
+            <div id="post-1903" class="full-width-content post-1903 page type-page status-publish hentry">
+                <div class="fw-page-builder-content">
+                    <section id="xs-sec-9919bd3b" class="fw-main-row   xs-sc-9919bd3b   ">
+                        <div class="xs-main-overlay"></div>
+                        <div class="fw-container">
+                            <div class="fw-row">
+                                <div class="fw-col-inner">
+                                    <div id="xs-col-9282633c" class="fw-col-md-12     xs-sc-9282633c    ">
+                                        <div class="fw-main-row">
+                                            <div class="fw-col-inner">
+                                                <div class="heading  xs-heading-b0699a3b   ">
+                                                    <h3 class='xs-title content-title boder-none'> Nos formulaires </h3>
+                                                </div>
+                                                <div class="featured-tab clearfix">
+                                                    <ul class="nav nav-tabs">
+                                                        <li class="active">
+                                                            <a class="animated fadeIn" href="#tab-cont-63d782f10c71f-1"
+                                                                data-toggle="tab">
+                                                                <span class="tab-head"><i
+                                                                        class="icon icon-consult"></i></span>
+                                                                <div class="tab-info">
+                                                                    <span class="tab-text-title">
+                                                                        Mieux vous connaitre </span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="">
+                                                            <a class="animated fadeIn" href="#tab-cont-63d782f10c71f-2"
+                                                                data-toggle="tab">
+                                                                <span class="tab-head"><i class="icon icon-loan"></i></span>
+                                                                <div class="tab-info">
+                                                                    <span class="tab-text-title">
+                                                                        Profil financier </span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="tab-content">
+                                                        <div class="tab-pane active animated fadeInRight"
+                                                            id="tab-cont-63d782f10c71f-1">
+                                                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8nR_BzNeEuc3nEStJimfHtzxObAl8QiEkxIBhhxqJEO8lHg/viewform?embedded=true" width="1080" height="3157" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                                        </div>
+                                                        <div class="tab-pane  animated fadeInRight"
+                                                            id="tab-cont-63d782f10c71f-2">
+                                                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmep0-5Fzad6osE1L7gEsKRHsNBwE30iu07v6N-m1_ZDNXGw/viewform?embedded=true" width="1080" height="1950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </section>
                 </div>
             </div>
         </div>
     </div>
-    <section id="main-container" class="blog main-container" role="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-
-                    @foreach ($posts as $item)
-                        <div class="post">
-
-                            <div class="post-media post-image"><img width="750" height="465"
-                                    src="{{ asset('assets/posts/'.$item->image) }}"
-                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /> </div>
-                            <div class="post-body clearfix">
-                                <div class="post-meta-left pull-left text-center">
-                                    <div class="entry-meta"><span class="post-meta-date meta-date"><span
-                                                class="day">{{ $item->created_at->format('d') }}</span>{{ $item->created_at->format('M') }}</span><span class="meta-author post-author"><img
-                                                alt=''
-                                                src='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=55&amp;d=mm&amp;r=g'
-                                                srcset='https://secure.gravatar.com/avatar/7f85908a10a7fa54759a1e6dd3775985?s=110&#038;d=mm&#038;r=g 2x'
-                                                class='avatar avatar-55 photo' height='55' width='55' /> <a
-                                                href="#" rel="author">Nw-Investments</a></span><span class="post-comment"><i class="icon icon-comment"></i> <a
-                                                href="#">0</a></span>
-                                    </div>
-                                </div>
-                                <div class="post-content-right">
-                                    <div class="entry-header">
-                                        <div class="post-meta"><span class="meta-categories post-cat"> <i
-                                                    class="icon icon-folder"></i> <a href="#" rel="category tag">{{ $item->topic->name }}</a>
-                                            </span></div>
-                                        <h2 class="entry-title"><a href="{{ route('single', $item) }}">{{ $item->title }}</a></h2>
-                                        <div class="entry-content">
-                                            {!! $item->short() !!}</div>
-                                        <div class="post-footer text-right"><a href="{{ route('single', $item) }}" class="btn btn-primary">En savoir plus</a> </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                    <div class="paging text-center">
-                        <ul class="pagination">
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <aside id="sidebar" class="sidebar sidebar-right col-md-4" role="complementary">
-                    <div id="search-2" class="widget widget_search">
-                        <div class="search-widget input-group">
-                            <form method="get" action="#" id="search">
-                                <input type="text" name="s" class="form-control" placeholder="Recherche.."
-                                    value="">
-                                <span class="input-group-btn">
-                                    <i class="fa fa-search"></i>
-                                </span>
-                            </form>
-                        </div>
-                    </div>
-                    <div id="recent-posts-2" class="widget widget_recent_entries">
-                        <h3 class="widget-title">Articles recents</h3>
-                        <ul>
-                            @foreach ($blog as $item)
-                                <li>
-                                    <a href="{{ route('single', $item) }}">{{ $item->title }}</a>
-                                </li>
-                            @endforeach
-                        </ul>
-                    </div>
-                    <div id="categories-2" class="widget widget_categories">
-                        <h3 class="widget-title">Categories</h3>
-                        <ul>
-                            @foreach ($topics as $item)
-                                <li class="cat-item cat-item-8"><a href="#">{{ $item->name }}</a>
-                                </li>
-                            @endforeach
-                        </ul>
-                    </div>
-
-                </aside>
-            </div>
-        </div>
-    </section>
 @endsection

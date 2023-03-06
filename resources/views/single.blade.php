@@ -1,7 +1,7 @@
 @extends('layouts.user')
 
 @section('content')
-    <div id="banner-area" class="banner-area" style="background: url(../../../../wp-content/uploads/2018/01/banner5-1.jpg)">
+    <div id="banner-area" class="banner-area" style="background: url({{ asset('wp-content/uploads/2018/01/banner5-1.jpg') }})">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">

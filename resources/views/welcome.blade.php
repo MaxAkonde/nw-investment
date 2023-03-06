@@ -300,9 +300,9 @@
                             <div id="xs-col-c1aeba22" class="fw-col-md-4     xs-sc-c1aeba22    ">
                                 <div class="fw-main-row">
                                     <div class="fw-col-inner">
-                                        <div class="text-right "> <a target="_self" href="{{ route('contact') }}"
+                                        <div class="text-right "> <a target="_self" href="{{ route('investir') }}"
                                                 class="margin-top-20 margin-right-10 btn btn-primary">
-                                                Contactez-nous</a>
+                                                Investisez avec nous</a>
                                         </div>
                                     </div>
                                 </div>

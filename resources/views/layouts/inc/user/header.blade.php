@@ -35,6 +35,9 @@
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1571">
                                     <a href="/#avis">Avis</a>
                                 </li>
+                                <li>
+                                    <a href="{{ route('investir') }}">Investir</a>
+                                </li>
                                 <li id="menu-item-789"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-789">
                                     <a href="{{ route('blog') }}">Blog</a>
@@ -74,6 +77,9 @@
                                 <li
                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1571">
                                     <a title="Avis" href="/#avis">Avis</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('investir') }}">Investir</a>
                                 </li>
                                 <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-789">
