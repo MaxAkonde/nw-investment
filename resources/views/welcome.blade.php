@@ -302,7 +302,7 @@
                                     <div class="fw-col-inner">
                                         <div class="text-right "> <a target="_self" href="{{ route('investir') }}"
                                                 class="margin-top-20 margin-right-10 btn btn-primary">
-                                                Investisez avec nous</a>
+                                                Investissez avec nous</a>
                                         </div>
                                     </div>
                                 </div>
