@@ -629,7 +629,11 @@
                         </div>
                     </div>
         </section>
-        <section id="blog" class="fw-main-row   xs-sc-d1ef01c2   section-padding">
+        <br>
+        <br>
+        <br>
+        <br>
+        {{-- <section id="blog" class="fw-main-row   xs-sc-d1ef01c2   section-padding">
             <div class="xs-main-overlay"></div>
             <div class="fw-container">
                 <div class="fw-row">
@@ -692,6 +696,6 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
     </div>
 @endsection

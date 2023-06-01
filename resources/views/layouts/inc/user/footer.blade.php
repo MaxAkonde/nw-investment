@@ -70,7 +70,7 @@
                                 <li><a href="/">Accueil</a></li>
                                 <li><a href="/#service">Confiance</a></li>
                                 <li><a href="/#avis">Avis</a></li>
-                                <li><a href="{{ route('blog') }}">Blog</a></li>
+                                {{-- <li><a href="{{ route('blog') }}">Blog</a></li> --}}
                                 <li><a href="{{ route('contact') }}">Contact</a></li>
                                 <li><a href="{{ route('mention') }}">Mentions légales</a></li>
                                 <li><a href="{{ route('conditions') }}">Conditons Générales</a></li>
