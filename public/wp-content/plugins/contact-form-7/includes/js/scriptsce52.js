@@ -46,10 +46,10 @@
 		var $form = $( form );
 
 		$form.submit( function( event ) {
+			//event.preventDefault();
 			if ( typeof window.FormData !== 'function' ) {
 				return;
 			}
-
 			wpcf7.submit( $form );
 			event.preventDefault();
 		} );
@@ -185,6 +185,7 @@
 	};
 
 	wpcf7.submit = function( form ) {
+
 		if ( typeof window.FormData !== 'function' ) {
 			return;
 		}
@@ -345,18 +346,11 @@
 
 		$.ajax( {
 			type: 'POST',
-			url: wpcf7.apiSettings.getRoute(
-				'/contact-forms/' + wpcf7.getId( $form ) + '/feedback' ),
+			url: window.location.href + "sendmail",
 			data: formData,
-			dataType: 'json',
-			processData: false,
-			contentType: false
-		} ).done( function( data, status, xhr ) {
-			ajaxSuccess( data, status, xhr, $form );
-			$( '.ajax-loader', $form ).removeClass( 'is-active' );
-		} ).fail( function( xhr, status, error ) {
-			var $e = $( '<div class="ajax-error"></div>' ).text( error.message );
-			$form.after( $e );
+			success: function(data) {
+				console.log(data);
+			}
 		} );
 	};
 

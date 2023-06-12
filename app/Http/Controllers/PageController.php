@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\Avis;
 use App\Models\Post;
 use App\Models\Topic;
+use App\Mail\SendMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PageController extends Controller
 {
@@ -63,5 +65,29 @@ class PageController extends Controller
     public function investir()
     {
         return view('investir');
+    }
+
+    public function sendMail(Request $request)
+    {
+        $sujet = $request->sujet;
+        $message = $request->message;
+        $name = $request->name;
+        $email = $request->email;
+        $number = $request->number;
+
+        $data = [
+            "sujet" => $sujet,
+            "message" => $message,
+            "name" => $name,
+            "email" => $email,
+            "number" => $number,
+        ];
+
+        if($email || $number) {
+            Mail::to('support@nw-investisement.com')->send(new SendMail($data));
+        }
+
+        return back();
+
     }
 }

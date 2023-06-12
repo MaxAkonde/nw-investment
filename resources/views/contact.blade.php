@@ -357,8 +357,8 @@
                                                         lang="en-US" dir="ltr">
                                                         <div class="screen-reader-response"></div>
                                                         <form
-                                                            action="#"
-                                                            method="post" class="wpcf7-form" novalidate="novalidate">
+                                                            action="{{ route('sendMail') }}"
+                                                            method="post" class="wpcf7-form" novalidate="novalidate" >
                                                             <div style="display: none;">
                                                                 <input type="hidden" name="_wpcf7" value="1580">
                                                                 <input type="hidden" name="_wpcf7_version" value="5.0.2">
@@ -368,11 +368,12 @@
                                                                 <input type="hidden" name="_wpcf7_container_post"
                                                                     value="184">
                                                             </div>
+                                                            @csrf
                                                             <div class="ts_contact_form">
                                                                 <div class="row">
                                                                     <div class="col-md-12">
                                                                         <p><span class="wpcf7-form-control-wrap text"><input
-                                                                                    type="text" name="text"
+                                                                                    type="text" name="name"
                                                                                     value="" size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                                                     aria-required="true"
@@ -399,7 +400,7 @@
                                                                     </div>
                                                                     <div class="col-md-12">
                                                                         <p><span class="wpcf7-form-control-wrap textarea">
-                                                                                <textarea name="textarea" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea"
+                                                                                <textarea name="message" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea"
                                                                                     aria-invalid="false" placeholder="Message"></textarea>
                                                                             </span></p>
                                                                         <p><input type="submit" value="Envoyer"
