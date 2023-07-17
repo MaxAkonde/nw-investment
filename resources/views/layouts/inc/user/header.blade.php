@@ -38,10 +38,10 @@
                                 <li>
                                     <a href="{{ route('investir') }}">Investir</a>
                                 </li>
-                                {{-- <li id="menu-item-789"
+                                <li id="menu-item-789"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-789">
                                     <a href="{{ route('blog') }}">Blog</a>
-                                </li> --}}
+                                </li>
                                 <li id="menu-item-187"
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187">
                                     <a href="{{ route('contact') }}">Contact</a>
@@ -81,10 +81,10 @@
                                 <li>
                                     <a href="{{ route('investir') }}">Investir</a>
                                 </li>
-                                {{-- <li
+                                <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-789">
                                     <a title="Blog" href="{{ route('blog') }}">Blog</a>
-                                </li> --}}
+                                </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-187">
                                     <a title="Contact" href="{{ route('contact') }}">Contact</a>
                                 </li>
