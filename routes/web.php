@@ -21,7 +21,7 @@ Route::get('/', [PageController::class, 'home']);
 
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/blog', [PageController::class, 'blog'])->name('blog');
-Route::get('/blog/{post}', [PageController::class, 'single'])->name('single');
+Route::get('/single/{post}', [PageController::class, 'single'])->name('single');
 Route::get('/mentions', [PageController::class, 'mention'])->name('mention');
 Route::get('/conditions', [PageController::class, 'conditions'])->name('conditions');
 Route::get('/investir', [PageController::class, 'investir'])->name('investir');
